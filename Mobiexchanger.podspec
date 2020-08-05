@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'Mobiexchanger'
-  s.version          = '0.1.2'
+  s.version          = '0.1.1'
   s.summary          = 'This is a ads sdk of MobiExchanger.'
 
 # This description is used to generate tags and improve search results.
