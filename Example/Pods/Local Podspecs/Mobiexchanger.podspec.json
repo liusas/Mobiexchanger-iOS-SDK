@@ -1,0 +1,23 @@
+{
+  "name": "Mobiexchanger",
+  "version": "0.1.1",
+  "summary": "This is a ads sdk of MobiExchanger.",
+  "description": "This is a Mobiexchanger's advertise SDK, and we can use it as a module",
+  "homepage": "https://gitlab.ad-mex.com/public_group/Mobiexchanger-iOS-SDK.git",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Liusas": "liufeng@mobiexchanger.com"
+  },
+  "source": {
+    "git": "https://gitlab.ad-mex.com/public_group/Mobiexchanger-iOS-SDK.git",
+    "tag": "0.1.1"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source_files": "Mobiexchanger/Classes/**/*",
+  "vendored_frameworks": "Mobiexchanger/Classes/MobiPubSDK.framework"
+}

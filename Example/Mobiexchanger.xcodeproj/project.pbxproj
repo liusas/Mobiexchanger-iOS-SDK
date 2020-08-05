@@ -7,6 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0309FB2424DAB3A5001C267C /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0309FB2324DAB3A5001C267C /* WebKit.framework */; };
+		0309FB2624DAB3EE001C267C /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0309FB2524DAB3EE001C267C /* MediaPlayer.framework */; };
+		0309FB2824DAB40C001C267C /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0309FB2724DAB40C001C267C /* CoreTelephony.framework */; };
+		0309FB2A24DAB428001C267C /* AVKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0309FB2924DAB428001C267C /* AVKit.framework */; };
+		0309FB2C24DAB444001C267C /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0309FB2B24DAB444001C267C /* AVFoundation.framework */; };
+		0309FB2E24DAB497001C267C /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0309FB2D24DAB497001C267C /* CoreMedia.framework */; };
+		0309FB3024DAB4EE001C267C /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0309FB2F24DAB4ED001C267C /* SystemConfiguration.framework */; };
+		0309FB3224DAB511001C267C /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0309FB3124DAB510001C267C /* StoreKit.framework */; };
+		0309FB3424DAB530001C267C /* SafariServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0309FB3324DAB530001C267C /* SafariServices.framework */; };
+		0309FB3624DAB58A001C267C /* CoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0309FB3524DAB58A001C267C /* CoreServices.framework */; };
+		0309FB3824DAB5AE001C267C /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0309FB3724DAB5AE001C267C /* AdSupport.framework */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
 		6003F592195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
@@ -20,10 +31,10 @@
 		6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
 		6003F5BA195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5B8195388D20070C39A /* InfoPlist.strings */; };
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
-		70011E480BDE16E1E61EEE75 /* Pods_Mobiexchanger_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEB39ED2E29C1D372079AF26 /* Pods_Mobiexchanger_Tests.framework */; };
 		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
-		EA2539A89CB1D8FF3953C483 /* Pods_Mobiexchanger_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E6C847941EB12E64E134A5EB /* Pods_Mobiexchanger_Example.framework */; };
+		9D0D827213118C65B3BD2C33 /* libPods-Mobiexchanger_Tests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6638E519C0C797A55D77D4FA /* libPods-Mobiexchanger_Tests.a */; };
+		CE9CB876488D80392685CC5A /* libPods-Mobiexchanger_Example.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 09DD7C939F25BC48C393A394 /* libPods-Mobiexchanger_Example.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,8 +48,20 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0309FB2324DAB3A5001C267C /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
+		0309FB2524DAB3EE001C267C /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+		0309FB2724DAB40C001C267C /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		0309FB2924DAB428001C267C /* AVKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVKit.framework; path = System/Library/Frameworks/AVKit.framework; sourceTree = SDKROOT; };
+		0309FB2B24DAB444001C267C /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		0309FB2D24DAB497001C267C /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		0309FB2F24DAB4ED001C267C /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		0309FB3124DAB510001C267C /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		0309FB3324DAB530001C267C /* SafariServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SafariServices.framework; path = System/Library/Frameworks/SafariServices.framework; sourceTree = SDKROOT; };
+		0309FB3524DAB58A001C267C /* CoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreServices.framework; path = System/Library/Frameworks/CoreServices.framework; sourceTree = SDKROOT; };
+		0309FB3724DAB5AE001C267C /* AdSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdSupport.framework; path = System/Library/Frameworks/AdSupport.framework; sourceTree = SDKROOT; };
+		09DD7C939F25BC48C393A394 /* libPods-Mobiexchanger_Example.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Mobiexchanger_Example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2B8354E7E974D1713DF80444 /* Pods-Mobiexchanger_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Mobiexchanger_Tests.release.xcconfig"; path = "Target Support Files/Pods-Mobiexchanger_Tests/Pods-Mobiexchanger_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		3308A5C33CFB85D310760ED0 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		3308A5C33CFB85D310760ED0 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* Mobiexchanger_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Mobiexchanger_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -58,15 +81,14 @@
 		6003F5B9195388D20070C39A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
+		6638E519C0C797A55D77D4FA /* libPods-Mobiexchanger_Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Mobiexchanger_Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		96836942F6452090E8BC60E6 /* Mobiexchanger.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = Mobiexchanger.podspec; path = ../Mobiexchanger.podspec; sourceTree = "<group>"; };
+		96836942F6452090E8BC60E6 /* Mobiexchanger.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Mobiexchanger.podspec; path = ../Mobiexchanger.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		C4ECD6CD4612E41A4BB381AA /* Pods-Mobiexchanger_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Mobiexchanger_Tests.debug.xcconfig"; path = "Target Support Files/Pods-Mobiexchanger_Tests/Pods-Mobiexchanger_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		C77A78241EBABA1E3C19319F /* Pods-Mobiexchanger_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Mobiexchanger_Example.debug.xcconfig"; path = "Target Support Files/Pods-Mobiexchanger_Example/Pods-Mobiexchanger_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		C9F4DF2F2D1F2298EBBD5EB6 /* Pods-Mobiexchanger_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Mobiexchanger_Example.release.xcconfig"; path = "Target Support Files/Pods-Mobiexchanger_Example/Pods-Mobiexchanger_Example.release.xcconfig"; sourceTree = "<group>"; };
-		CEB39ED2E29C1D372079AF26 /* Pods_Mobiexchanger_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Mobiexchanger_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		DE8DD521B626321DDCB2EF26 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		E6C847941EB12E64E134A5EB /* Pods_Mobiexchanger_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Mobiexchanger_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DE8DD521B626321DDCB2EF26 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,10 +96,21 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0309FB3824DAB5AE001C267C /* AdSupport.framework in Frameworks */,
+				0309FB3624DAB58A001C267C /* CoreServices.framework in Frameworks */,
+				0309FB3424DAB530001C267C /* SafariServices.framework in Frameworks */,
+				0309FB3224DAB511001C267C /* StoreKit.framework in Frameworks */,
+				0309FB3024DAB4EE001C267C /* SystemConfiguration.framework in Frameworks */,
+				0309FB2E24DAB497001C267C /* CoreMedia.framework in Frameworks */,
+				0309FB2C24DAB444001C267C /* AVFoundation.framework in Frameworks */,
+				0309FB2A24DAB428001C267C /* AVKit.framework in Frameworks */,
+				0309FB2824DAB40C001C267C /* CoreTelephony.framework in Frameworks */,
+				0309FB2624DAB3EE001C267C /* MediaPlayer.framework in Frameworks */,
+				0309FB2424DAB3A5001C267C /* WebKit.framework in Frameworks */,
 				6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */,
 				6003F592195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F58E195388D20070C39A /* Foundation.framework in Frameworks */,
-				EA2539A89CB1D8FF3953C483 /* Pods_Mobiexchanger_Example.framework in Frameworks */,
+				CE9CB876488D80392685CC5A /* libPods-Mobiexchanger_Example.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -88,7 +121,7 @@
 				6003F5B0195388D20070C39A /* XCTest.framework in Frameworks */,
 				6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F5B1195388D20070C39A /* Foundation.framework in Frameworks */,
-				70011E480BDE16E1E61EEE75 /* Pods_Mobiexchanger_Tests.framework in Frameworks */,
+				9D0D827213118C65B3BD2C33 /* libPods-Mobiexchanger_Tests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -119,12 +152,23 @@
 		6003F58C195388D20070C39A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				0309FB3724DAB5AE001C267C /* AdSupport.framework */,
+				0309FB3524DAB58A001C267C /* CoreServices.framework */,
+				0309FB3324DAB530001C267C /* SafariServices.framework */,
+				0309FB3124DAB510001C267C /* StoreKit.framework */,
+				0309FB2F24DAB4ED001C267C /* SystemConfiguration.framework */,
+				0309FB2D24DAB497001C267C /* CoreMedia.framework */,
+				0309FB2B24DAB444001C267C /* AVFoundation.framework */,
+				0309FB2924DAB428001C267C /* AVKit.framework */,
+				0309FB2724DAB40C001C267C /* CoreTelephony.framework */,
+				0309FB2524DAB3EE001C267C /* MediaPlayer.framework */,
+				0309FB2324DAB3A5001C267C /* WebKit.framework */,
 				6003F58D195388D20070C39A /* Foundation.framework */,
 				6003F58F195388D20070C39A /* CoreGraphics.framework */,
 				6003F591195388D20070C39A /* UIKit.framework */,
 				6003F5AF195388D20070C39A /* XCTest.framework */,
-				E6C847941EB12E64E134A5EB /* Pods_Mobiexchanger_Example.framework */,
-				CEB39ED2E29C1D372079AF26 /* Pods_Mobiexchanger_Tests.framework */,
+				09DD7C939F25BC48C393A394 /* libPods-Mobiexchanger_Example.a */,
+				6638E519C0C797A55D77D4FA /* libPods-Mobiexchanger_Tests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -193,7 +237,6 @@
 				C4ECD6CD4612E41A4BB381AA /* Pods-Mobiexchanger_Tests.debug.xcconfig */,
 				2B8354E7E974D1713DF80444 /* Pods-Mobiexchanger_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -208,7 +251,6 @@
 				6003F586195388D20070C39A /* Sources */,
 				6003F587195388D20070C39A /* Frameworks */,
 				6003F588195388D20070C39A /* Resources */,
-				8E4BA620721A4C91700BE60C /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -248,6 +290,9 @@
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = Liusas;
 				TargetAttributes = {
+					6003F589195388D20070C39A = {
+						DevelopmentTeam = J9VDPF7663;
+					};
 					6003F5AD195388D20070C39A = {
 						TestTargetID = 6003F589195388D20070C39A;
 					};
@@ -258,6 +303,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -295,24 +341,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		8E4BA620721A4C91700BE60C /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Mobiexchanger_Example/Pods-Mobiexchanger_Example-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/Mobiexchanger/Mobiexchanger.framework",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Mobiexchanger.framework",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Mobiexchanger_Example/Pods-Mobiexchanger_Example-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		CF6B811DD7B37A3D59DCA96E /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -494,6 +522,11 @@
 			baseConfigurationReference = C77A78241EBABA1E3C19319F /* Pods-Mobiexchanger_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = J9VDPF7663;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Mobiexchanger",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Mobiexchanger/Mobiexchanger-Prefix.pch";
 				INFOPLIST_FILE = "Mobiexchanger/Mobiexchanger-Info.plist";
@@ -510,6 +543,11 @@
 			baseConfigurationReference = C9F4DF2F2D1F2298EBBD5EB6 /* Pods-Mobiexchanger_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = J9VDPF7663;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Mobiexchanger",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Mobiexchanger/Mobiexchanger-Prefix.pch";
 				INFOPLIST_FILE = "Mobiexchanger/Mobiexchanger-Info.plist";

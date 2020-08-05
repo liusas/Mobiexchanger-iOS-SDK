@@ -1,0 +1,12 @@
+Mobiexchanger:
+  LABEL: Mobiexchanger
+  PROJECT_PATH: Mobiexchanger.xcodeproj
+  UUID: 3A10EF94B00BAECB4F5F85BCA8CCEF53
+Pods-Mobiexchanger_Example:
+  LABEL: Pods-Mobiexchanger_Example
+  PROJECT_PATH: Pods.xcodeproj
+  UUID: 0B6B05F750E9EA6BEDDA9ACD18CDCCCC
+Pods-Mobiexchanger_Tests:
+  LABEL: Pods-Mobiexchanger_Tests
+  PROJECT_PATH: Pods.xcodeproj
+  UUID: E199CE0E0AB6BFBAC1C563991E69D2D2

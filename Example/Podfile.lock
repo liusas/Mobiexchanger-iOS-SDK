@@ -1,0 +1,16 @@
+PODS:
+  - Mobiexchanger (0.1.1)
+
+DEPENDENCIES:
+  - Mobiexchanger (from `../`)
+
+EXTERNAL SOURCES:
+  Mobiexchanger:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  Mobiexchanger: 4f9402db15e4bf4304bb429a9fd0851d86602f47
+
+PODFILE CHECKSUM: 7edf949c9e3cfd244ddd6e9568eb08e235ac4685
+
+COCOAPODS: 1.9.3

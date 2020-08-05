@@ -1,0 +1,6 @@
+framework module Pods_Mobiexchanger_Example {
+  umbrella header "Pods-Mobiexchanger_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}
