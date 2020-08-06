@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'Mobi_ads'
-  s.version          = '0.1.5'
+  s.version          = '0.1.6'
   s.summary          = 'This is a ads sdk of Mobi_ads.'
 
 # This description is used to generate tags and improve search results.
@@ -31,7 +31,7 @@ Pod::Spec.new do |s|
   s.pod_target_xcconfig = { 'OTHER_LDFLAGS' => '-lObjC' }
   s.source_files = 'Mobiexchanger/Classes/**/*'
 #  s.source_files = 'MobiPubSDK.framework/Headers/*.{h}'
-#  s.vendored_framework = 'Mobiexchanger/Classes/MobiPubSDK.framework'
+  s.vendored_framework = 'Mobiexchanger/Classes/MobiPubSDK.framework'
   
   # s.resource_bundles = {
   #   'Mobiexchanger' => ['Mobiexchanger/Assets/*.png']
