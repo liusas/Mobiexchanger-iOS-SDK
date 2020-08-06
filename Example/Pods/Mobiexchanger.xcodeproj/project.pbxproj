@@ -7,99 +7,99 @@
 	objects = {
 
 /* Begin PBXAggregateTarget section */
-		7B96A0C651A78780564232C9FED39BD9 /* Mobi_ads */ = {
+		3A10EF94B00BAECB4F5F85BCA8CCEF53 /* Mobiexchanger */ = {
 			isa = PBXAggregateTarget;
-			buildConfigurationList = 5F3A66F7309F939EFF4C9F2D16513256 /* Build configuration list for PBXAggregateTarget "Mobi_ads" */;
+			buildConfigurationList = 0F24489B65AF9CCE3C48FE507D30071C /* Build configuration list for PBXAggregateTarget "Mobiexchanger" */;
 			buildPhases = (
 			);
 			dependencies = (
 			);
-			name = Mobi_ads;
+			name = Mobiexchanger;
 		};
 /* End PBXAggregateTarget section */
 
 /* Begin PBXFileReference section */
-		17DF46EB8C52C92923C885B3D6B78997 /* Mobi_ads.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Mobi_ads.debug.xcconfig; sourceTree = "<group>"; };
-		3EA7ADC560398C9A60B6653CB4EF259C /* Mobi_ads.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Mobi_ads.release.xcconfig; sourceTree = "<group>"; };
-		55C2692BFD3531F8D114B1337A4CDBA2 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
-		6CB07650B2CEFCEB3FFE77E49DCB61F9 /* MobiPubSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobiPubSDK.framework; path = Mobiexchanger/MobiPubSDK.framework; sourceTree = "<group>"; };
-		A42FB3A8BCE4DA7948CEF48992D417FB /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
-		D04FBC23747AAAD37603FEE5F5734066 /* Mobi_ads.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = Mobi_ads.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		8CD608282399D4E7ED4356749AB597E7 /* Mobiexchanger.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Mobiexchanger.debug.xcconfig; sourceTree = "<group>"; };
+		A4A01D6FB6D9BB051BC9C919BBC12CCA /* Mobiexchanger.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = Mobiexchanger.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		C7309D3D011EEFF468E80401AD6412AC /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		D819241908D2FC197D07BA816203FAEE /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		EB222E6FD78D1CDE955A50026E7D8FB4 /* Mobiexchanger.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Mobiexchanger.release.xcconfig; sourceTree = "<group>"; };
+		EDA0381350EE70C01DB77B392D7410D3 /* MobiPubSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobiPubSDK.framework; path = Mobiexchanger/MobiPubSDK.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXGroup section */
-		0F9A172EBFEAE7488F438D5CFE189D6C /* Mobi_ads */ = {
+		38C40F14C5C31EA94D7829FFCF57C57E /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				178209CDFE6F650A32BFEF9F7F9A2EF5 /* Frameworks */,
-				6482DF2C5F235A019ED40E92DF4E7DE9 /* Pod */,
-				21A10FFFED0718D3ADC5F83E9E684CA3 /* Support Files */,
-			);
-			name = Mobi_ads;
-			path = ../..;
-			sourceTree = "<group>";
-		};
-		178209CDFE6F650A32BFEF9F7F9A2EF5 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				6CB07650B2CEFCEB3FFE77E49DCB61F9 /* MobiPubSDK.framework */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		21A10FFFED0718D3ADC5F83E9E684CA3 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				17DF46EB8C52C92923C885B3D6B78997 /* Mobi_ads.debug.xcconfig */,
-				3EA7ADC560398C9A60B6653CB4EF259C /* Mobi_ads.release.xcconfig */,
+				8CD608282399D4E7ED4356749AB597E7 /* Mobiexchanger.debug.xcconfig */,
+				EB222E6FD78D1CDE955A50026E7D8FB4 /* Mobiexchanger.release.xcconfig */,
 			);
 			name = "Support Files";
-			path = "Example/Pods/Target Support Files/Mobi_ads";
+			path = "Example/Pods/Target Support Files/Mobiexchanger";
 			sourceTree = "<group>";
 		};
-		6482DF2C5F235A019ED40E92DF4E7DE9 /* Pod */ = {
+		622FA66429BF59099053D12D21406EF1 = {
 			isa = PBXGroup;
 			children = (
-				A42FB3A8BCE4DA7948CEF48992D417FB /* LICENSE */,
-				D04FBC23747AAAD37603FEE5F5734066 /* Mobi_ads.podspec */,
-				55C2692BFD3531F8D114B1337A4CDBA2 /* README.md */,
-			);
-			name = Pod;
-			sourceTree = "<group>";
-		};
-		BD3D2FEDC4B648D3A6E538D6262CC7F5 = {
-			isa = PBXGroup;
-			children = (
-				F4930DD9900848C6C327C02408A0D348 /* Frameworks */,
-				0F9A172EBFEAE7488F438D5CFE189D6C /* Mobi_ads */,
-				FB0076C368CEC21940A42E78726D2586 /* Products */,
+				B751E18D749FE54FB97AF37809180B76 /* Frameworks */,
+				EEAD7DA9AEE19DF5F43C1E24054AA0DE /* Mobiexchanger */,
+				A504D5655AE18C14726D7F6A3C7F4ACA /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		F4930DD9900848C6C327C02408A0D348 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		FB0076C368CEC21940A42E78726D2586 /* Products */ = {
+		A504D5655AE18C14726D7F6A3C7F4ACA /* Products */ = {
 			isa = PBXGroup;
 			children = (
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
+		AAFE3A03811B1F3BF1FB1193A20F29C6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EDA0381350EE70C01DB77B392D7410D3 /* MobiPubSDK.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B751E18D749FE54FB97AF37809180B76 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CB3E437CDAFB8A576B547CBB52CFBCEA /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				C7309D3D011EEFF468E80401AD6412AC /* LICENSE */,
+				A4A01D6FB6D9BB051BC9C919BBC12CCA /* Mobiexchanger.podspec */,
+				D819241908D2FC197D07BA816203FAEE /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		EEAD7DA9AEE19DF5F43C1E24054AA0DE /* Mobiexchanger */ = {
+			isa = PBXGroup;
+			children = (
+				AAFE3A03811B1F3BF1FB1193A20F29C6 /* Frameworks */,
+				CB3E437CDAFB8A576B547CBB52CFBCEA /* Pod */,
+				38C40F14C5C31EA94D7829FFCF57C57E /* Support Files */,
+			);
+			name = Mobiexchanger;
+			path = ../..;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXProject section */
-		0AA1B204888D45007AE7F811D1DB42D2 /* Project object */ = {
+		1BF82963852CEB9196CDEA2AD95C8448 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1100;
 				LastUpgradeCheck = 1100;
 			};
-			buildConfigurationList = 230D30E8125984700100255619211C4C /* Build configuration list for PBXProject "Mobi_ads" */;
+			buildConfigurationList = 92EE61AEB290426BCE25021EE49386ED /* Build configuration list for PBXProject "Mobiexchanger" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -107,18 +107,45 @@
 				en,
 				Base,
 			);
-			mainGroup = BD3D2FEDC4B648D3A6E538D6262CC7F5;
-			productRefGroup = FB0076C368CEC21940A42E78726D2586 /* Products */;
+			mainGroup = 622FA66429BF59099053D12D21406EF1;
+			productRefGroup = A504D5655AE18C14726D7F6A3C7F4ACA /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				7B96A0C651A78780564232C9FED39BD9 /* Mobi_ads */,
+				3A10EF94B00BAECB4F5F85BCA8CCEF53 /* Mobiexchanger */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin XCBuildConfiguration section */
-		5C69B2F6892D84E816B262412463E1FE /* Release */ = {
+		1316A5B5E86FB524A7B423211551E2EA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EB222E6FD78D1CDE955A50026E7D8FB4 /* Mobiexchanger.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		466141A0ADEDCC88449D2F203C3E8D97 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8CD608282399D4E7ED4356749AB597E7 /* Mobiexchanger.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		466A754224797C685C0F8292592E13A4 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -178,20 +205,7 @@
 			};
 			name = Release;
 		};
-		96ABD1541052D940CDDE5FE08A427495 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 17DF46EB8C52C92923C885B3D6B78997 /* Mobi_ads.debug.xcconfig */;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				SDKROOT = iphoneos;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
-		CA0D569C4C7FE048D46765767667A51C /* Debug */ = {
+		6257EA9765833D94C19984905D516E69 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -255,42 +269,28 @@
 			};
 			name = Debug;
 		};
-		D2DC5A0988B56F2FF3151B5A4809DB4A /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3EA7ADC560398C9A60B6653CB4EF259C /* Mobi_ads.release.xcconfig */;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				SDKROOT = iphoneos;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		230D30E8125984700100255619211C4C /* Build configuration list for PBXProject "Mobi_ads" */ = {
+		0F24489B65AF9CCE3C48FE507D30071C /* Build configuration list for PBXAggregateTarget "Mobiexchanger" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				CA0D569C4C7FE048D46765767667A51C /* Debug */,
-				5C69B2F6892D84E816B262412463E1FE /* Release */,
+				466141A0ADEDCC88449D2F203C3E8D97 /* Debug */,
+				1316A5B5E86FB524A7B423211551E2EA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		5F3A66F7309F939EFF4C9F2D16513256 /* Build configuration list for PBXAggregateTarget "Mobi_ads" */ = {
+		92EE61AEB290426BCE25021EE49386ED /* Build configuration list for PBXProject "Mobiexchanger" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				96ABD1541052D940CDDE5FE08A427495 /* Debug */,
-				D2DC5A0988B56F2FF3151B5A4809DB4A /* Release */,
+				6257EA9765833D94C19984905D516E69 /* Debug */,
+				466A754224797C685C0F8292592E13A4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 0AA1B204888D45007AE7F811D1DB42D2 /* Project object */;
+	rootObject = 1BF82963852CEB9196CDEA2AD95C8448 /* Project object */;
 }

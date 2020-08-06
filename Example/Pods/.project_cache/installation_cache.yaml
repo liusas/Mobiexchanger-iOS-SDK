@@ -2,19 +2,19 @@ BUILD_CONFIGURATIONS:
   Debug: :debug
   Release: :release
 CACHE_KEYS:
-  Mobi_ads:
+  Mobiexchanger:
     BUILD_SETTINGS_CHECKSUM:
-      Mobi_ads:
-        :debug: a8abf55ac869b3c2c66f989fa6c436ec
-        :release: a8abf55ac869b3c2c66f989fa6c436ec
-    CHECKSUM: 69305c25a00c91fe6aaf34a9e5d714a693db108b
+      Mobiexchanger:
+        :debug: 38c9fa03f3437674b45439382de6e2bc
+        :release: 38c9fa03f3437674b45439382de6e2bc
+    CHECKSUM: d2191c8e5bae822a44ba702c577db784706e2749
     FILES:
       - "../../LICENSE"
       - "../../Mobiexchanger/MobiPubSDK.framework"
       - "../../README.md"
-    PROJECT_NAME: Mobi_ads
+    PROJECT_NAME: Mobiexchanger
     SPECS:
-      - Mobi_ads (0.1.6)
+      - Mobiexchanger (0.1.7)
   Pods-Mobiexchanger_Example:
     BUILD_SETTINGS_CHECKSUM:
       Debug: 40ef15a9bc3e626e4a153a49e5569105

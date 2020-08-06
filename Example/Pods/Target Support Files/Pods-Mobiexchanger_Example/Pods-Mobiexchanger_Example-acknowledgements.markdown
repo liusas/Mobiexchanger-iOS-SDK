@@ -1,7 +1,7 @@
 # Acknowledgements
 This application makes use of the following third party libraries:
 
-## Mobi_ads
+## Mobiexchanger
 
 Copyright (c) 2020 Liusas <liufeng@mobiexchanger.com>
 

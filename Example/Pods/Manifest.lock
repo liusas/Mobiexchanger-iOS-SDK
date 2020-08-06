@@ -1,16 +1,16 @@
 PODS:
-  - Mobi_ads (0.1.6)
+  - Mobiexchanger (0.1.7)
 
 DEPENDENCIES:
-  - Mobi_ads (from `../`)
+  - Mobiexchanger (from `../`)
 
 EXTERNAL SOURCES:
-  Mobi_ads:
+  Mobiexchanger:
     :path: "../"
 
 SPEC CHECKSUMS:
-  Mobi_ads: 69305c25a00c91fe6aaf34a9e5d714a693db108b
+  Mobiexchanger: d2191c8e5bae822a44ba702c577db784706e2749
 
-PODFILE CHECKSUM: 7f468cfd402619785dc215046d7a3c33c74472bb
+PODFILE CHECKSUM: 7edf949c9e3cfd244ddd6e9568eb08e235ac4685
 
 COCOAPODS: 1.9.3

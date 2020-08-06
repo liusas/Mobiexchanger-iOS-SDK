@@ -7,24 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1D3BF70B9CB78CEB47DABE00CC5E60F1 /* Pods-Mobiexchanger_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A4CF12FC16A1E7BFE262C306065F0189 /* Pods-Mobiexchanger_Example-dummy.m */; };
 		965B7ADEC2E2C89E6F3E0976BD8C8C7C /* Pods-Mobiexchanger_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EB78FBB77DA143F1B8AE7FAEA6E9A07 /* Pods-Mobiexchanger_Tests-dummy.m */; };
-		D273D6CDCB9327E2EE1294311CF39615 /* Pods-Mobiexchanger_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A4CF12FC16A1E7BFE262C306065F0189 /* Pods-Mobiexchanger_Example-dummy.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		A776E02B4AF835C202BC2A5E22EA9870 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 96C1D5B895E797BFBBE140F4DBD21C27 /* Mobiexchanger.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 3A10EF94B00BAECB4F5F85BCA8CCEF53;
+			remoteInfo = Mobiexchanger;
+		};
 		B1F76BD54F9575E5E058AFEAADD52EEB /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 0B6B05F750E9EA6BEDDA9ACD18CDCCCC;
 			remoteInfo = "Pods-Mobiexchanger_Example";
-		};
-		BF5EDBACE4744EC982BB714FFE853A43 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = F02C8B90EDBDE685425C078BC1563E00 /* Mobi_ads.xcodeproj */;
-			proxyType = 1;
-			remoteGlobalIDString = 7B96A0C651A78780564232C9FED39BD9;
-			remoteInfo = Mobi_ads;
 		};
 /* End PBXContainerItemProxy section */
 
@@ -38,10 +38,10 @@
 		608560500F62D19647C5B74A02921548 /* Pods-Mobiexchanger_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Mobiexchanger_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		6AC4DCA1856F74A9F4793567DA35D7AB /* Pods-Mobiexchanger_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Mobiexchanger_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		82CFC22C7920E24A9E8F51A1CB133B47 /* libPods-Mobiexchanger_Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-Mobiexchanger_Tests.a"; path = "libPods-Mobiexchanger_Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		96C1D5B895E797BFBBE140F4DBD21C27 /* Mobiexchanger */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Mobiexchanger; path = Mobiexchanger.xcodeproj; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A4CF12FC16A1E7BFE262C306065F0189 /* Pods-Mobiexchanger_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Mobiexchanger_Example-dummy.m"; sourceTree = "<group>"; };
 		E80A18B2BC109A68CB727BF805D24B03 /* Pods-Mobiexchanger_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Mobiexchanger_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		F02C8B90EDBDE685425C078BC1563E00 /* Mobi_ads */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Mobi_ads; path = Mobi_ads.xcodeproj; sourceTree = "<group>"; };
 		FC96607FB53322350254AB4511FE7653 /* libPods-Mobiexchanger_Example.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-Mobiexchanger_Example.a"; path = "libPods-Mobiexchanger_Example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -53,7 +53,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		CA0FE4EDE588EF24184585F17E1E33C7 /* Frameworks */ = {
+		E9F712A2FAE331B32B655F621EE6A3DD /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -63,6 +63,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		19564B2A968A1F69B7721B1915F42C92 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				96C1D5B895E797BFBBE140F4DBD21C27 /* Mobiexchanger */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
 		2A166ABD91ADED9AC6AE2619F249957D /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -107,19 +115,11 @@
 			path = "Target Support Files/Pods-Mobiexchanger_Example";
 			sourceTree = "<group>";
 		};
-		C6E16D29B4BE2E244E2188C01004F5C2 /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				F02C8B90EDBDE685425C078BC1563E00 /* Mobi_ads */,
-			);
-			name = "Development Pods";
-			sourceTree = "<group>";
-		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				C6E16D29B4BE2E244E2188C01004F5C2 /* Development Pods */,
+				19564B2A968A1F69B7721B1915F42C92 /* Development Pods */,
 				D89477F20FB1DE18A04690586D7808C4 /* Frameworks */,
 				5BFBC16F640C703F378AE05177C88AF6 /* Products */,
 				2A166ABD91ADED9AC6AE2619F249957D /* Targets Support Files */,
@@ -136,7 +136,7 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		7928D60FE436B5E5F00C5ACD316921E6 /* Headers */ = {
+		773B3DD0B9639AB0C2AFC9FD3315482C /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -155,16 +155,16 @@
 /* Begin PBXNativeTarget section */
 		0B6B05F750E9EA6BEDDA9ACD18CDCCCC /* Pods-Mobiexchanger_Example */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = DE2DC279E000C68B18C1B53275BFCFCD /* Build configuration list for PBXNativeTarget "Pods-Mobiexchanger_Example" */;
+			buildConfigurationList = F8D3777BFE6D0B5401013EE71C1EDF7C /* Build configuration list for PBXNativeTarget "Pods-Mobiexchanger_Example" */;
 			buildPhases = (
-				7928D60FE436B5E5F00C5ACD316921E6 /* Headers */,
-				C44428C60B67FB9F234A1758F8D64CF9 /* Sources */,
-				CA0FE4EDE588EF24184585F17E1E33C7 /* Frameworks */,
+				773B3DD0B9639AB0C2AFC9FD3315482C /* Headers */,
+				E4D6C10CC1F2EFB52BECFF95188364D8 /* Sources */,
+				E9F712A2FAE331B32B655F621EE6A3DD /* Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				36864BD1D5D17E459EEE0A849A36537F /* PBXTargetDependency */,
+				023E7FD539D4056EC2C0411E7FF83F78 /* PBXTargetDependency */,
 			);
 			name = "Pods-Mobiexchanger_Example";
 			productName = "Pods-Mobiexchanger_Example";
@@ -211,7 +211,7 @@
 			projectDirPath = "";
 			projectReferences = (
 				{
-					ProjectRef = F02C8B90EDBDE685425C078BC1563E00 /* Mobi_ads */;
+					ProjectRef = 96C1D5B895E797BFBBE140F4DBD21C27 /* Mobiexchanger */;
 				},
 			);
 			projectRoot = "";
@@ -231,32 +231,53 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C44428C60B67FB9F234A1758F8D64CF9 /* Sources */ = {
+		E4D6C10CC1F2EFB52BECFF95188364D8 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D273D6CDCB9327E2EE1294311CF39615 /* Pods-Mobiexchanger_Example-dummy.m in Sources */,
+				1D3BF70B9CB78CEB47DABE00CC5E60F1 /* Pods-Mobiexchanger_Example-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		023E7FD539D4056EC2C0411E7FF83F78 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Mobiexchanger;
+			targetProxy = A776E02B4AF835C202BC2A5E22EA9870 /* PBXContainerItemProxy */;
+		};
 		1E7C0092142FB3EFEFE53709CAF878C7 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-Mobiexchanger_Example";
 			target = 0B6B05F750E9EA6BEDDA9ACD18CDCCCC /* Pods-Mobiexchanger_Example */;
 			targetProxy = B1F76BD54F9575E5E058AFEAADD52EEB /* PBXContainerItemProxy */;
 		};
-		36864BD1D5D17E459EEE0A849A36537F /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = Mobi_ads;
-			targetProxy = BF5EDBACE4744EC982BB714FFE853A43 /* PBXContainerItemProxy */;
-		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		8D886EF31ED21BF29D92CD1B47E5E0E6 /* Release */ = {
+		02AA56B525E9CA92866139D078CCF72E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6AC4DCA1856F74A9F4793567DA35D7AB /* Pods-Mobiexchanger_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4690FC70E1813AA2F7CEC1AA5E115DDC /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 42BF49A94DBA455E654FCAC14B9AF2E4 /* Pods-Mobiexchanger_Example.release.xcconfig */;
 			buildSettings = {
@@ -423,27 +444,6 @@
 			};
 			name = Debug;
 		};
-		A66305F73701BA42B32FA66886F51DBA /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6AC4DCA1856F74A9F4793567DA35D7AB /* Pods-Mobiexchanger_Example.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				MACH_O_TYPE = staticlib;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
 		DDAAB2131C5855E4B9B68482601D1E7E /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 232CEBF26CAC1BDCA82D0B3F383A7335 /* Pods-Mobiexchanger_Tests.release.xcconfig */;
@@ -487,11 +487,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		DE2DC279E000C68B18C1B53275BFCFCD /* Build configuration list for PBXNativeTarget "Pods-Mobiexchanger_Example" */ = {
+		F8D3777BFE6D0B5401013EE71C1EDF7C /* Build configuration list for PBXNativeTarget "Pods-Mobiexchanger_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				A66305F73701BA42B32FA66886F51DBA /* Debug */,
-				8D886EF31ED21BF29D92CD1B47E5E0E6 /* Release */,
+				02AA56B525E9CA92866139D078CCF72E /* Debug */,
+				4690FC70E1813AA2F7CEC1AA5E115DDC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
