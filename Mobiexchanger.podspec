@@ -29,9 +29,9 @@ Pod::Spec.new do |s|
   s.ios.deployment_target = '9.0'
 
   s.pod_target_xcconfig = { 'OTHER_LDFLAGS' => '-lObjC' }
-#  s.source_files = 'Mobiexchanger/Classes/**/*'
-  s.source_files = 'Mobiexchanger/Classes/MobiPubSDK.framework/Headers/*'
-  s.vendored_framework = 'Mobiexchanger/Classes/MobiPubSDK.framework'
+  s.source_files = 'Mobiexchanger/Classes/**/*'
+#  s.source_files = 'MobiPubSDK.framework/Headers/*.{h}'
+#  s.vendored_framework = 'Mobiexchanger/Classes/MobiPubSDK.framework'
   
   # s.resource_bundles = {
   #   'Mobiexchanger' => ['Mobiexchanger/Assets/*.png']
