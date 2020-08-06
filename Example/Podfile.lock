@@ -1,5 +1,5 @@
 PODS:
-  - Mobiexchanger (0.1.2)
+  - Mobiexchanger (0.1.4)
 
 DEPENDENCIES:
   - Mobiexchanger (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  Mobiexchanger: e154781a11443748763c25795e9b0e27f625c12a
+  Mobiexchanger: 30d498236b68f3606055ac1f2029a0aae541742e
 
 PODFILE CHECKSUM: 7edf949c9e3cfd244ddd6e9568eb08e235ac4685
 
