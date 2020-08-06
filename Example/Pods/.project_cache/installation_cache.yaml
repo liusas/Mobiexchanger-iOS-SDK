@@ -2,26 +2,28 @@ BUILD_CONFIGURATIONS:
   Debug: :debug
   Release: :release
 CACHE_KEYS:
-  Mobiexchanger:
+  Mobi_ads:
     BUILD_SETTINGS_CHECKSUM:
-      Mobiexchanger:
-        :debug: 18d175583117d41146e74442b59f9353
-        :release: 18d175583117d41146e74442b59f9353
-    CHECKSUM: 30d498236b68f3606055ac1f2029a0aae541742e
+      Mobi_ads:
+        :debug: 56f3b16444a74c56d26ac4610742e501
+        :release: 56f3b16444a74c56d26ac4610742e501
+    CHECKSUM: cc72dd8ed59e1e0660cb52fa005a970879f4205c
     FILES:
       - "../../LICENSE"
+      - "../../Mobiexchanger/Classes/Helloaaaa.h"
+      - "../../Mobiexchanger/Classes/Helloaaaa.m"
       - "../../README.md"
-    PROJECT_NAME: Mobiexchanger
+    PROJECT_NAME: Mobi_ads
     SPECS:
-      - Mobiexchanger (0.1.4)
+      - Mobi_ads (0.1.4)
   Pods-Mobiexchanger_Example:
     BUILD_SETTINGS_CHECKSUM:
-      Debug: ee567a4e690cc69173d127476461726a
-      Release: ee567a4e690cc69173d127476461726a
+      Debug: b6264be64e93f2a423fcb363c6d41637
+      Release: b6264be64e93f2a423fcb363c6d41637
   Pods-Mobiexchanger_Tests:
     BUILD_SETTINGS_CHECKSUM:
-      Debug: 07719c1304d3f7c46e0211f8e1daeb2a
-      Release: 07719c1304d3f7c46e0211f8e1daeb2a
+      Debug: 9a28b809a43331e23a37371ad88119b8
+      Release: 9a28b809a43331e23a37371ad88119b8
 OBJECT_VERSION: 46
 PLUGINS:
   cocoapods-stats:

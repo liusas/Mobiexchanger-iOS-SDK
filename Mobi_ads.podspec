@@ -7,9 +7,9 @@
 #
 
 Pod::Spec.new do |s|
-  s.name             = 'Mobiexchanger'
-  s.version          = '0.1.4'
-  s.summary          = 'This is a ads sdk of MobiExchanger.'
+  s.name             = 'Mobi_ads'
+  s.version          = '0.1.5'
+  s.summary          = 'This is a ads sdk of Mobi_ads.'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -17,7 +17,7 @@ Pod::Spec.new do |s|
 #   * Write the description between the DESC delimiters below.
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
-  s.description      = "This is a Mobiexchanger's advertise SDK, and we can use it as a module"
+  s.description      = "This is a Mobi_ads's advertise SDK, and we can use it as a module"
 
   s.homepage         = 'https://github.com/liusas/Mobiexchanger-iOS-SDK.git'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'

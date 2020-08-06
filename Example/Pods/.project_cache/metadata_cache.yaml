@@ -1,3 +1,7 @@
+Mobi_ads:
+  LABEL: Mobi_ads
+  PROJECT_PATH: Mobi_ads.xcodeproj
+  UUID: 7B96A0C651A78780564232C9FED39BD9
 Mobiexchanger:
   LABEL: Mobiexchanger
   PROJECT_PATH: Mobiexchanger.xcodeproj
