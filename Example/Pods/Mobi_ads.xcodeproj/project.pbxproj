@@ -7,26 +7,437 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		3B57A5EF66D3A89FC01B5B30C5CA6E76 /* Helloaaaa.h in Headers */ = {isa = PBXBuildFile; fileRef = 5A287CE8A0EB2AB6DD9AEE57ABB5EA93 /* Helloaaaa.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		4BCC63EDC181B0A7BDE1B954E1FC15D9 /* Helloaaaa.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E1EC50BE5986F5EB4F4EB7FE0195394 /* Helloaaaa.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		CD329D58A8ACF4804E8388816327B71E /* Mobi_ads-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CAA620F11A2CDE9EA25E11287E38BA6 /* Mobi_ads-dummy.m */; };
+		01162E6C889C5756460CC346534FF86E /* MPStopwatch.h in Headers */ = {isa = PBXBuildFile; fileRef = 0DE7084A42C4F2106749FC5DD119F1B5 /* MPStopwatch.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		03D20ED2EC5DCF2B37EC8D5A351858B0 /* MPVASTMediaFile.h in Headers */ = {isa = PBXBuildFile; fileRef = 32E49E18D4EAF98403C0B9B8D9FFC08C /* MPVASTMediaFile.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		062523001147093DF090C48B410DE97A /* MPVASTAd.h in Headers */ = {isa = PBXBuildFile; fileRef = 95D1790F787DA2A6A64B019B3CB80AC0 /* MPVASTAd.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		06A7C6F12B24570A93F9E44028E45F17 /* MRConstants.h in Headers */ = {isa = PBXBuildFile; fileRef = 9D29B8CA70034C0AE0EEFF8C1489619C /* MRConstants.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		07F16D2C46A5BCEC7297D2B9F3DD682B /* MPBannerAdManagerDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = E805E468D0633E82060027D45ACA5855 /* MPBannerAdManagerDelegate.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		083FED88CCA9742BC12F304D4F784F0B /* MPVASTTracking.h in Headers */ = {isa = PBXBuildFile; fileRef = 204D31B35D228D424BD2251AA081107D /* MPVASTTracking.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		092694E0CA2D5EB9B108E3077041148D /* MPVASTCreative.h in Headers */ = {isa = PBXBuildFile; fileRef = 30044D180797EA9A8F703784147155D7 /* MPVASTCreative.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		0AAD49A59759FC7602580559DCCE36A5 /* MobiHTTPNetworkTaskData.h in Headers */ = {isa = PBXBuildFile; fileRef = E484402BBA867A53C0525C665E94F0F4 /* MobiHTTPNetworkTaskData.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		0BF5203C15AE7C5F597F01F9C41E7DA9 /* MobiRewardedVideoReward.h in Headers */ = {isa = PBXBuildFile; fileRef = 1DBCF0B0FB5A594ADE917BDD5CDD6DE6 /* MobiRewardedVideoReward.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		0DE641210ADD46D4764AB132CF4C51F8 /* MPHTMLBannerCustomEvent.h in Headers */ = {isa = PBXBuildFile; fileRef = E4CF9B922F94EA5725F5B81A4F43850D /* MPHTMLBannerCustomEvent.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		0E77BEF90E7FD696B87DB34383162248 /* MobiInterstitial.h in Headers */ = {isa = PBXBuildFile; fileRef = FB195CCE9B5EB56978FB4E6FBEF9B81F /* MobiInterstitial.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		0FD6C8BE19D9778F3CE2B9B001FFC401 /* MobiAdVideoBaseClass.h in Headers */ = {isa = PBXBuildFile; fileRef = 3BD32A4DD15D78FFF731F78319089D9A /* MobiAdVideoBaseClass.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		100B4B448B32096AB10D8979CF51F76C /* MPImageLoader.h in Headers */ = {isa = PBXBuildFile; fileRef = CEDC97758E7AF982F3BC317A72E1746E /* MPImageLoader.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		10F888E1351BD2CE4BB7C47656809D9B /* MPPrivateBannerCustomEventDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 07AAEFBF268A2D836C41DA5AB196267F /* MPPrivateBannerCustomEventDelegate.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		13097EE2A436132D382A7395EADCED7B /* MobiTimer.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A9AF456908F0CE5486CF3FBDFA31F56 /* MobiTimer.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		1447424D07ED42FD90B9A908C3C2D551 /* MobiInterstitialModel.h in Headers */ = {isa = PBXBuildFile; fileRef = CC6506E6943BB53CC5C9BF2E9BFB3C21 /* MobiInterstitialModel.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		152CE745C2DA669A21FBC171F90885BB /* MobiLaunchAdCache.h in Headers */ = {isa = PBXBuildFile; fileRef = 7668744C46EC10FDBF39ADE214040C62 /* MobiLaunchAdCache.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		16A29546E993179D09D8EEF8E3A15736 /* MobiSplashCustomEvent.h in Headers */ = {isa = PBXBuildFile; fileRef = 89F94BFB13ADD813F3F1C135D3D611B3 /* MobiSplashCustomEvent.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		177605B78AAAF233E03C5716C38A20A5 /* MRExpandModalViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 3B63DDFAE14E0C58E9FDF0F69B565C44 /* MRExpandModalViewController.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		17F3267FC9764B2F25644C0F282D332C /* MobiAdNativeImg.h in Headers */ = {isa = PBXBuildFile; fileRef = 08C676AFC0E7E01B215298057A795CC6 /* MobiAdNativeImg.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		186A08147E3B6A7B1B4C7BD619D65B9C /* MobiLaunchAdWebViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 207778B6359AE7AEC053205381C2053C /* MobiLaunchAdWebViewController.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		197091559675808DF1087EADB93A991C /* UIViewController+MobiNav.h in Headers */ = {isa = PBXBuildFile; fileRef = 64C91E5F95C16B61B79A8257233491A9 /* UIViewController+MobiNav.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		199A1F05DAD9444E13609A1444F41EF5 /* NSDictionary+MPAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = ED94A0CABBF2D7DF6B7DB39977E19BB0 /* NSDictionary+MPAdditions.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		19BA85713B8932EFE17C4168F65102FC /* MPVASTCompanionAdView.h in Headers */ = {isa = PBXBuildFile; fileRef = 4543DD5702D28A6AB0CC8B72168F379F /* MPVASTCompanionAdView.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		1B945F4D09B5C9B3FF42B79860DBE01C /* MobiRewardedVideoError.h in Headers */ = {isa = PBXBuildFile; fileRef = A80C9FFA94AC7CFA8EEFE02484BE026C /* MobiRewardedVideoError.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		1DCB2BB069800E95CB88788114113599 /* MobiHTTPNetworkSession.h in Headers */ = {isa = PBXBuildFile; fileRef = BA2A9B6DF2D5466084B58C6183ADFE77 /* MobiHTTPNetworkSession.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		1EAA3AC7DA3691136C012BAB5113ECF1 /* MPCoreInstanceProvider.h in Headers */ = {isa = PBXBuildFile; fileRef = 94079EEA807093AD25B4665D1BA5885A /* MPCoreInstanceProvider.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		1F39CDC7C8BAB466843988C774D4EE30 /* MPReachabilityManager.h in Headers */ = {isa = PBXBuildFile; fileRef = BDA71FC851489BE4D61E7DAF0D9F05B4 /* MPReachabilityManager.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		212BE3A21E4057A06F253DA30856555C /* MPBannerAdManager.h in Headers */ = {isa = PBXBuildFile; fileRef = F367C588B0764ADDD6943C38A5064844 /* MPBannerAdManager.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		2165BFF3F7B0A96C023E71C3816ADDB7 /* MPVASTIndustryIcon.h in Headers */ = {isa = PBXBuildFile; fileRef = F47F7CDE05E34B92F26ADC7A51222415 /* MPVASTIndustryIcon.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		2232E1D76273A4D3CBAA3A17DE782ACF /* MobiAdNativeBaseClass.h in Headers */ = {isa = PBXBuildFile; fileRef = 98629A5EB48856AEEBB19CB6A920871E /* MobiAdNativeBaseClass.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		24FE450591DC77501579A5F8D09130B1 /* MobiExperimentProvider.h in Headers */ = {isa = PBXBuildFile; fileRef = 5065297F9DA9CBE0FBAE616C4964BA28 /* MobiExperimentProvider.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		26F3DD850F3983C072262F7AF1336447 /* MobiInterstitialCustomEvent.h in Headers */ = {isa = PBXBuildFile; fileRef = EB593B35B90E584233775F0F248BF797 /* MobiInterstitialCustomEvent.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		26FC740E3C0253EE16CADBBE1DDB42FB /* MPProgressOverlayView.h in Headers */ = {isa = PBXBuildFile; fileRef = 93CB7076D67172CE1F6668F9017D257E /* MPProgressOverlayView.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		2C82DA0DCF6397EE37D8C070C8BF88DF /* NSError+MPAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 51000582319B20614B8E4D5B8218CFB2 /* NSError+MPAdditions.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		2CFC6F8641595E013D6EF8F07DD94D8D /* MPVASTTrackingEvent.h in Headers */ = {isa = PBXBuildFile; fileRef = F4816ED2E4B85BF24842A241476BF220 /* MPVASTTrackingEvent.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		2D8ECCBC0A795B9E306173B042B9ABF9 /* MobiNativeExpressFeedView.h in Headers */ = {isa = PBXBuildFile; fileRef = 50087597217F7AF8F25F68C3F7C6CF58 /* MobiNativeExpressFeedView.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		2F34206A16A16789FDA9E4F921326369 /* MPVASTManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 82217DCFBE0C664BFEACD544319F0C8D /* MPVASTManager.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		2F73DB43006A001A5194B61EBABC1D45 /* MPHTMLInterstitialCustomEvent.h in Headers */ = {isa = PBXBuildFile; fileRef = F67705231484C0EA371158D08FC7D963 /* MPHTMLInterstitialCustomEvent.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		2FA37087459586450CEE1F6F0EF155A0 /* MobiURL.h in Headers */ = {isa = PBXBuildFile; fileRef = 2E5AE332C45CB27002951A6545C85C3B /* MobiURL.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		2FAA50F09ED23B61E2106DC2030306D9 /* NSMutableArray+MPAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 2077F740F531C94526AEFFD8826A1FD7 /* NSMutableArray+MPAdditions.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		2FF6139B218F6D5647238D51B6A5DDEB /* MPVideoEvent.h in Headers */ = {isa = PBXBuildFile; fileRef = 53E7D346CA776248BC749C7412091E6C /* MPVideoEvent.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		309F71221A97017161B92A79C8988F57 /* MRError.h in Headers */ = {isa = PBXBuildFile; fileRef = 96536D6ED797E13AD9C7772594FF3FA6 /* MRError.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		313E72826AAE4FECB4E71D8A9C01E0EF /* MPMRAIDBannerCustomEvent.h in Headers */ = {isa = PBXBuildFile; fileRef = D9632647289B4D574E646BC190E90338 /* MPMRAIDBannerCustomEvent.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		3187BE5065E6879956D2AA7E5FA65314 /* MobiLaunchAdConst.h in Headers */ = {isa = PBXBuildFile; fileRef = 22FD1DAF2F0173E39ED7F4ECAA8EBC24 /* MobiLaunchAdConst.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		32249B7C84C6F165BA41D6AD1D822FBD /* MPAdWebViewAgent.h in Headers */ = {isa = PBXBuildFile; fileRef = EDCE9D068CE34B4325A3C1D76144624B /* MPAdWebViewAgent.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		32C0727493DAC98CEBC5D9B094C85B97 /* MobiPub+Utility.h in Headers */ = {isa = PBXBuildFile; fileRef = 3C64662212BCC00186D72FDE695826F8 /* MobiPub+Utility.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		33F44475461BF785E4A1DD41E74235C5 /* MPURLActionInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = 459922CB66D982E5489DDC17BC35B390 /* MPURLActionInfo.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		35EE84F520165CF1325398C0A0ED9B81 /* MobiRealTimeTimer.h in Headers */ = {isa = PBXBuildFile; fileRef = 1B8E2CDEB05D49CC3EB8523443FBD4AD /* MobiRealTimeTimer.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		387C828CE1A4118E7EAF1EBEA703FBA5 /* MobiRewardedVideo.h in Headers */ = {isa = PBXBuildFile; fileRef = ECFB1A60F62A4F1D0BF26F3A597AEE6B /* MobiRewardedVideo.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		398D15542B70D36C80AA55618A049EB0 /* MPError.h in Headers */ = {isa = PBXBuildFile; fileRef = C76F9B02825234DDCFDFA28C7CC8165F /* MPError.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		3A6D2B6C4A963A3A47CE7ACAEC9D9C48 /* MobiAdClickResolver.h in Headers */ = {isa = PBXBuildFile; fileRef = 6CAC349C4AC60ABD35A222DBFF406010 /* MobiAdClickResolver.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		3AE28520EA40888E849CD24FD802D9CD /* NSBundle+Library.h in Headers */ = {isa = PBXBuildFile; fileRef = EBB282CA6E307E86E6167B198A737DA2 /* NSBundle+Library.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		3C339D22C5B97A20464DA1F5A5D3549E /* MPInterstitialCustomEventAdapter.h in Headers */ = {isa = PBXBuildFile; fileRef = D126ED12E7D5EB104FFBD46E4A5F2681 /* MPInterstitialCustomEventAdapter.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		3CF458CC12E3AF3F21E64482E0CC7813 /* MobiSplash.h in Headers */ = {isa = PBXBuildFile; fileRef = 48550F5C6D097613DBE5EE8CC92272E5 /* MobiSplash.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		3F5DEABE36D774AB72D2DBFE08D8A052 /* MRVideoPlayerManager.h in Headers */ = {isa = PBXBuildFile; fileRef = E09BABA76F7F38570F589F68DA5B0286 /* MRVideoPlayerManager.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		43A1B7A6274A63FD7A2048B6FCA77EEA /* MPLogging.h in Headers */ = {isa = PBXBuildFile; fileRef = AC66E251BAD7A747B624E1B1E2E43005 /* MPLogging.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		4535923A47CF61BE02A614C89A7378DE /* MobiLaunchAd.h in Headers */ = {isa = PBXBuildFile; fileRef = 812EE58D1742A60EFFC831FC56D71F2A /* MobiLaunchAd.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		46745FBF06CB273857D9058A24EC55CD /* MPViewabilityTracker.h in Headers */ = {isa = PBXBuildFile; fileRef = 486CB59385176B26DFD057B7F8209609 /* MPViewabilityTracker.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		46AA6339F8BCF7A7A4A58B4D6CD67BD3 /* MobiSplashError.h in Headers */ = {isa = PBXBuildFile; fileRef = BBB23F59D564AA2F2F3FDA2D0E3853E0 /* MobiSplashError.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		4AD70D00C006B56C11A0AAEF06438CCE /* MobiAdVideoVideoAdm.h in Headers */ = {isa = PBXBuildFile; fileRef = 06B4CAF9EB9B2A2C7A91B67B266FE958 /* MobiAdVideoVideoAdm.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		4E0F011CC2CBEBFB3F9E0D8C169D0D77 /* MobiAdBannerBaseClass.h in Headers */ = {isa = PBXBuildFile; fileRef = 6266970D78B0E47D64B0B7174E04E792 /* MobiAdBannerBaseClass.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		4EFC52CBD809677F8E96CE05434B1E26 /* MobiInterstitialAdapter.h in Headers */ = {isa = PBXBuildFile; fileRef = FB91682BF68274016224FC080EE70FF0 /* MobiInterstitialAdapter.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		50CA3F42406B03EB82D5C3CD538ED79E /* MobiPub.h in Headers */ = {isa = PBXBuildFile; fileRef = D15E58661055CF307CCFE7D40431B5C4 /* MobiPub.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		52A637653C94BAF0F4DF4029D68870D0 /* MobiFeedAdapter.h in Headers */ = {isa = PBXBuildFile; fileRef = 5BE6798029C7F67EB5B77090EB2E7B0F /* MobiFeedAdapter.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		5597543C8B173C8DA91D88811A30D090 /* MPExtendedHitBoxButton.h in Headers */ = {isa = PBXBuildFile; fileRef = E88DAA8C5EFAC68E6B943F002F444A3F /* MPExtendedHitBoxButton.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		567A2D3E6B2B7A8C7F775E6715838BFE /* MRBridge.h in Headers */ = {isa = PBXBuildFile; fileRef = 2AF2762AF70AAC350A3FF02DABBF35D0 /* MRBridge.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		5B289FD4EB059C69D2A4A61B4DFEB704 /* MobiFeedCustomEvent.h in Headers */ = {isa = PBXBuildFile; fileRef = 20F4902E2E1CC7D29A2DC8A1A9186E77 /* MobiFeedCustomEvent.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		5CC7300E1BAEFD422612A1741636C43D /* MPVASTError.h in Headers */ = {isa = PBXBuildFile; fileRef = 1DC1678212B4F76C58EEF2F6B6EC61D0 /* MPVASTError.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		5CEE05CB58B05A235A27F3B93F20D68F /* MPConstants.h in Headers */ = {isa = PBXBuildFile; fileRef = DB5347E27625C6FEC2EA797B19B15B79 /* MPConstants.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		6019C65E6BB9DDA1911E2AECD236B4E2 /* MPEngineInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = CBB5E9684E5395E397F499AB30C033BC /* MPEngineInfo.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		627EA4C33FBEED980A625B8953C7E518 /* MPPrivateInterstitialCustomEventDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 57D7C882900052C917FAA42C11E74A4E /* MPPrivateInterstitialCustomEventDelegate.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		6618F3CA2BD915EB019D110594E5202B /* MPVASTResourceView.h in Headers */ = {isa = PBXBuildFile; fileRef = A0AB45FE7D5365C8166E186087D8F009 /* MPVASTResourceView.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		68DFA2CBA602B85BCC807677D9A7E656 /* MPBannerCustomEventDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = DF06AC68AEA6A797A3EA578BA15DB6DD /* MPBannerCustomEventDelegate.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		69B2766CE28A24D04BE4C13BE5EA9DBB /* MPVASTConstant.h in Headers */ = {isa = PBXBuildFile; fileRef = 067E09CC8DA25121BE3A5F04BD1D569E /* MPVASTConstant.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		6B8D8DC1E750403419004CFD6EA3A38A /* MPIdentityProvider.h in Headers */ = {isa = PBXBuildFile; fileRef = 02BB5B746280CB47DA667DB3F005EB8D /* MPIdentityProvider.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		6D80CB05C5A108640F0147E270A24AFF /* MobiPubSDK in Sources */ = {isa = PBXBuildFile; fileRef = D45FA3D1FC0920204E8ED93E40C257F6 /* MobiPubSDK */; };
+		6EF7902255A4994A4A8DC9F24E2129DB /* MRProperty.h in Headers */ = {isa = PBXBuildFile; fileRef = 1A57A147A6E7FA4DCC5DA4F7B483F809 /* MRProperty.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		7000768417BE9A68524D738885C39429 /* MPInterstitialAdController.h in Headers */ = {isa = PBXBuildFile; fileRef = D61384B5211F0FBD37D8E8C255374AA3 /* MPInterstitialAdController.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		70F6E054C43EC0D1429FD6D5BCDC898C /* MPATSSetting.h in Headers */ = {isa = PBXBuildFile; fileRef = 3D5B84047C337C1338AA4161EA81E2D9 /* MPATSSetting.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		72E4EB0AEAFD757A48EA697B9BFF9CF1 /* MPWebBrowserUserAgentInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = BD83C9E77952A0D058E0D04F17BE6DC4 /* MPWebBrowserUserAgentInfo.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		73DC6CC4A5B3208A44B810E5B406FDA9 /* MPXMLParser.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A86AF6EC475255F721A168753004665 /* MPXMLParser.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		73F1538D53DBB5E849671CF57CEE1F8F /* MobiPubConfiguration.h in Headers */ = {isa = PBXBuildFile; fileRef = B4D2A54BD54C7E6D25E560D3B9B8C00E /* MobiPubConfiguration.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		759C3EB2949BECC6133534D4B5B8A0FC /* MPAdView.h in Headers */ = {isa = PBXBuildFile; fileRef = 61895FE675BC51A09303466C779A6C0E /* MPAdView.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		75D7E3AD840275E3EC65AD53294457A6 /* MobiGlobal.h in Headers */ = {isa = PBXBuildFile; fileRef = 170236F492B59FFB12AB30A56F8024EB /* MobiGlobal.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		76A97FE7F8C164F6F854DE5E3E752D57 /* MPImpressionData.h in Headers */ = {isa = PBXBuildFile; fileRef = 69C328F9E3B54B9A76671092B9605436 /* MPImpressionData.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		77EFC38293853DE435EDA628D7661F64 /* MobiRewardedVideoModel.h in Headers */ = {isa = PBXBuildFile; fileRef = D2CBA3B74EEDC52FE86548613C201D37 /* MobiRewardedVideoModel.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		781C1A067B920B5204185E178E305848 /* MobiPrivateSplashCustomEvent.h in Headers */ = {isa = PBXBuildFile; fileRef = 2FB5532DD1EC2C4D3F071FE9EC5815F8 /* MobiPrivateSplashCustomEvent.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		78F64D93BD12F35A68CD9ECCD3518A4C /* MPConsoleLogger.h in Headers */ = {isa = PBXBuildFile; fileRef = E4A5E6203F1F9505CE80A840AE79CEC5 /* MPConsoleLogger.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		7AB4A20C5FF474E1AB97212C40E076B5 /* MobiURLRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = 334C536E55281E6C357AC5A03E377A6E /* MobiURLRequest.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		7AEB71B49CD390CAC8FF03BFB8386527 /* MPInterstitialAdManagerDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = A89F05ED6017DD9A38A2F64C3D523EC1 /* MPInterstitialAdManagerDelegate.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		7C162AEF70A8194503544158001B05F1 /* MPVASTResource.h in Headers */ = {isa = PBXBuildFile; fileRef = 26982A02A89D56B1FC318881378F182F /* MPVASTResource.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		7C5307D56FBFA13551D4AABF36665CCB /* MobiLaunchAdButton.h in Headers */ = {isa = PBXBuildFile; fileRef = 071CA30D308D88088E9117CF229D7869 /* MobiLaunchAdButton.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		7EC28AF9F7BD764D87B0000F957B90D2 /* MPReachability.h in Headers */ = {isa = PBXBuildFile; fileRef = C38CAD237C9097DA7A4DF4DAC0ACE7C2 /* MPReachability.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		80E5937E79487354B50865A9AC48D72C /* UIImage+Library.h in Headers */ = {isa = PBXBuildFile; fileRef = 10040EC90CE9C7D3B952C8C4FBFAB43D /* UIImage+Library.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		8234069988B86C542808AEE269489F95 /* NSBundle+MPAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 4B37B572BD74621EBD379A7368F8AF85 /* NSBundle+MPAdditions.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		83DAA353A7B5BD5DF6371978B2931DAC /* FLAnimatedImage.h in Headers */ = {isa = PBXBuildFile; fileRef = DAEF131FC27144DCA46A62327D3FF926 /* FLAnimatedImage.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		849CC306E86125ADB59C7438A864947D /* MobiPrivateSplashCustomEventDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 1C52E065A59E2C307832B6ABD9A7C468 /* MobiPrivateSplashCustomEventDelegate.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		84B44E24E0FE218BE2B1BDD85C45DCD7 /* MobiAPIEndpoints.h in Headers */ = {isa = PBXBuildFile; fileRef = 40E7939D7CF54139D0A8CD534761E202 /* MobiAPIEndpoints.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		8612DC238F7A933D8C7F3A87F645D061 /* MobiPubSDK in Sources */ = {isa = PBXBuildFile; fileRef = 103FB6B4A5261FFF28635AE257BA63D5 /* MobiPubSDK */; };
+		86C5A592FFC2F52A926C4DD8E7BB26CF /* MobiAdTargeting.h in Headers */ = {isa = PBXBuildFile; fileRef = D0E7196F912A81CE68D9EE83B84FDA10 /* MobiAdTargeting.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		870F05B2AA5829A7040EBE5775DE8B7F /* MobiLaunchAdConfiguration.h in Headers */ = {isa = PBXBuildFile; fileRef = F486C5107B675DCCE4762171808FC77E /* MobiLaunchAdConfiguration.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		88667BA9C29EF6341934CDA39569B364 /* UIButton+MPAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = EF7430F60DA4313F3DB56D80277E7B43 /* UIButton+MPAdditions.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		888A6C90C7D7239D97017AE9DB6F81C2 /* MPMemoryCache.h in Headers */ = {isa = PBXBuildFile; fileRef = 2CE8F7928C34DC54D8BB376604B44F90 /* MPMemoryCache.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		88E30C702B36FC55471DFAF789445CAA /* MPBannerCustomEventAdapter.h in Headers */ = {isa = PBXBuildFile; fileRef = 2CB0A617AFC0053F0338247C8811F2EF /* MPBannerCustomEventAdapter.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		89566E3FB8B1F78FD54A0EE3DBEF0502 /* MPDiskLRUCache.h in Headers */ = {isa = PBXBuildFile; fileRef = 91F5DD4DFCE739B107C100A8E44FB7B2 /* MPDiskLRUCache.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		8B8729A63D8B8651CAE2288E976420C7 /* MPVASTMacroProcessor.h in Headers */ = {isa = PBXBuildFile; fileRef = 0D145AFA81FA9F5472181DF65DA27AA8 /* MPVASTMacroProcessor.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		8BA35559A2371E74E8E16727BE23FD6C /* MRCommand.h in Headers */ = {isa = PBXBuildFile; fileRef = A6856448A236B4E28822365E628934EB /* MRCommand.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		8C997DDD2CCD4EE1C6484DC927E23B4A /* MPAdServerKeys.h in Headers */ = {isa = PBXBuildFile; fileRef = 1442FAB60675327C80F2F2040EB34D1B /* MPAdServerKeys.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		8CC5CB547D01352F384351FB3A542AFD /* MPAdDestinationDisplayAgent.h in Headers */ = {isa = PBXBuildFile; fileRef = 4BC7CBAA2E0FB87AAE7DFF56F1F0F593 /* MPAdDestinationDisplayAgent.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		8D1816B6C6C0723ECF3E5EF8D7C2E5EE /* MobiPrivateFeedCustomEvent.h in Headers */ = {isa = PBXBuildFile; fileRef = 1F01645003CA11025EB7E597557BC019 /* MobiPrivateFeedCustomEvent.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		8D9B5B663F5980CCCF5F1DD3DE2C022C /* MPVASTDurationOffset.h in Headers */ = {isa = PBXBuildFile; fileRef = 8DD773F9E04DF53987B014140F94EC2E /* MPVASTDurationOffset.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		8E91F096714F8F5868AE9B40937214A4 /* MPVideoPlayerFullScreenVASTAdOverlay.h in Headers */ = {isa = PBXBuildFile; fileRef = BA6E9A8FC40D9DEFF6337EE8CF898F0E /* MPVideoPlayerFullScreenVASTAdOverlay.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		8E9C57795D10714F595480015DABA78D /* MPInterstitialViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 52024755131EEB76A21A22AB13A2034F /* MPInterstitialViewController.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		8F1A4F947FEA420224AACC413A7AD9E2 /* MPBLogLevel.h in Headers */ = {isa = PBXBuildFile; fileRef = EA3711A3C514AF81C074715AA2FD8509 /* MPBLogLevel.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		8F36CE5B8D679EE189A042F1AEDC5AAB /* MRController.h in Headers */ = {isa = PBXBuildFile; fileRef = E8BEE58D8A02961A81B1A872FF449D8F /* MRController.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		90087C1D72B1B71F256960035CE8A74E /* MobiFeed.h in Headers */ = {isa = PBXBuildFile; fileRef = DE486BFC48D49BC6702374BF4FC34CAF /* MobiFeed.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		906C0B8D714CE22D1AAD1292EE4E20E7 /* MobiAdConfigServer.h in Headers */ = {isa = PBXBuildFile; fileRef = 3F0FD1B3D866937445EF5FB1331B7994 /* MobiAdConfigServer.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		908F8141E7E7B71DBAAF3227CAE251BE /* UIView+MPAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 12FC8462FC753500EF7ADC005A854794 /* UIView+MPAdditions.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		92910299D5F25512D22F65E793DFC226 /* MobiLaunchImageView.h in Headers */ = {isa = PBXBuildFile; fileRef = F2C640FBB23AFEAE3880A8A51B29366A /* MobiLaunchImageView.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		9486F5E9F8DFA982BAE882A78D19B654 /* MPDeviceInformation.h in Headers */ = {isa = PBXBuildFile; fileRef = 550031E429282BF96BD256C7344F248D /* MPDeviceInformation.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		94C08418BAB1B19435A3978D67AEFDEA /* MPCountdownTimerView.h in Headers */ = {isa = PBXBuildFile; fileRef = 4E7ECDA8F0AC2B8A23EA98EF239EE215 /* MPCountdownTimerView.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		956DB93E85423634F296601F4517E673 /* MPVASTIndustryIconView.h in Headers */ = {isa = PBXBuildFile; fileRef = 7113001CE51FEBAB48F1C323CC5CA6A7 /* MPVASTIndustryIconView.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		95BA75885E6CA907FD670F2ACB5A8BCF /* MPForceableOrientationProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = 60B20559C39217DC60D9FBEE65856DFB /* MPForceableOrientationProtocol.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		960C55238008809740E4A1705A3A6335 /* FLAnimatedImageView.h in Headers */ = {isa = PBXBuildFile; fileRef = F43C1B03A8125DC5FD98FCFC779A7D39 /* FLAnimatedImageView.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		96448025EB4A4A9B2556C6545017982E /* MPHTMLInterstitialViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = C4233C86C90B8C229762E0FA07A42036 /* MPHTMLInterstitialViewController.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		9656FA1B056AB1322829DF63ED6CBB3F /* NSHTTPURLResponse+MPAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = CBBDD7533A15166A14B4FFD92E2FDC11 /* NSHTTPURLResponse+MPAdditions.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		967A073057659E6824918E142E6E5238 /* MobiPrivateInterstitialCustomEvent.h in Headers */ = {isa = PBXBuildFile; fileRef = 69CEAB5523B138050DF3DB4F6225E094 /* MobiPrivateInterstitialCustomEvent.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		96A012185DBA5DF50C910976B35AF62F /* MobiLaunchAdImageManager.h in Headers */ = {isa = PBXBuildFile; fileRef = D08BE01BEA79309222CEECDB2AA3D99D /* MobiLaunchAdImageManager.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		96C7CFF47EAAF1CADC714EC244D1DCEC /* MobiRewardedVideoCustomEvent.h in Headers */ = {isa = PBXBuildFile; fileRef = 0C9EABEC70298E3E2F65A2D2D7D6FC25 /* MobiRewardedVideoCustomEvent.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		98862AF63E0ECA40A53D6A0D6356F61A /* MPBaseInterstitialAdapter.h in Headers */ = {isa = PBXBuildFile; fileRef = E0BEECA1C27336730F67DA79BF88DF5B /* MPBaseInterstitialAdapter.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		99E3714578B00C5B5E40CE5D7073D427 /* MPAdViewDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 54730749AD661622F24D6C7F4A09BD4C /* MPAdViewDelegate.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		99FF550A956AFAB3D4C0098C3EF0C4AC /* MPVASTInterstitialCustomEvent.h in Headers */ = {isa = PBXBuildFile; fileRef = D5201C3D264B3B383AFDD7CF82D36AFE /* MPVASTInterstitialCustomEvent.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		9B6AA4E3042CC617DE58D90744E4C97D /* MPBannerCustomEvent+Internal.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F897DF47D3106FCBF3FD0A6E0FF0C96 /* MPBannerCustomEvent+Internal.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		9EA3A252A24B8A7C3343B586B96F1566 /* MPUserInteractionGestureRecognizer.h in Headers */ = {isa = PBXBuildFile; fileRef = E124B3102212C245A75F546A277B55AF /* MPUserInteractionGestureRecognizer.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		9F13B32C173DDDDB010E986F5D788FD2 /* MobiLaunchAdDownloader.h in Headers */ = {isa = PBXBuildFile; fileRef = 5B4771187018AC969C084F6AC8845991 /* MobiLaunchAdDownloader.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		A0DCA7303F622032A577187536D105CB /* MobiFeedError.h in Headers */ = {isa = PBXBuildFile; fileRef = 10D792D52E54B8E8933BCF25022DBD7F /* MobiFeedError.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		A143C81BCC3AF8A9AD6D5B3EC6DE46B7 /* MPCoreInstanceProvider+MRAID.h in Headers */ = {isa = PBXBuildFile; fileRef = 3F4916FC5BB2AD97AFEFA128B3F7C499 /* MPCoreInstanceProvider+MRAID.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		A1DF96FA1C2EF8A65981258EDFB1247F /* MPInterstitialAdManager.h in Headers */ = {isa = PBXBuildFile; fileRef = C4402D94FF13438A71E0C9847C09931F /* MPInterstitialAdManager.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		A2D7609D0BFA2730F8D61D8CD5DF4871 /* MPViewabilityAdapter.h in Headers */ = {isa = PBXBuildFile; fileRef = 73794077E25956F25AB1B88AB9BBDA6B /* MPViewabilityAdapter.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		A2F247E17243AF23673A71D17915A25D /* MobiPrivateRewardedVideoCustomEventDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = D19FC81BB1ED13B8D7C8B0B2A9701783 /* MobiPrivateRewardedVideoCustomEventDelegate.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		A475690E708377748BE88AF533DD90BA /* MPVideoConfig.h in Headers */ = {isa = PBXBuildFile; fileRef = 4CD9BF449E87EE59A39A12A5430A59CA /* MPVideoConfig.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		AA7900081C77C9A5D5AE8F01DA17F75B /* MPVideoPlayerViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = CC43277C853049C1F5F784273CBD916E /* MPVideoPlayerViewController.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		AB7C4789F972572802C641545C55AC4F /* MobiInterstitialError.h in Headers */ = {isa = PBXBuildFile; fileRef = F94523F6A486971EDCFD40C606DADE07 /* MobiInterstitialError.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		ABCBDE19F3029ECFAB7183EDCFC7F663 /* MPViewabilityOption.h in Headers */ = {isa = PBXBuildFile; fileRef = F5C807CC337545BDE746699DA1BBFD37 /* MPViewabilityOption.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		AC7832F03B989F6A8FEBAE52DF0C0FB7 /* MPConsentStatus.h in Headers */ = {isa = PBXBuildFile; fileRef = DC5EBC6714C6F23F51522124DBD6AEDD /* MPConsentStatus.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		AD6C94BB4352B5CEA6B445ADD1A70008 /* MRNativeCommandHandler.h in Headers */ = {isa = PBXBuildFile; fileRef = 39F0BA9B9C77D5FFB55F970324E686EB /* MRNativeCommandHandler.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		AE442AC9DC2C0869B96EE73FFCA5E547 /* MPVideoPlayerView.h in Headers */ = {isa = PBXBuildFile; fileRef = 78F3A286EC24CFA523E8631882DD6D13 /* MPVideoPlayerView.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		B1A2F9E5527648185E2F20269EF58F56 /* MPNativeCache.h in Headers */ = {isa = PBXBuildFile; fileRef = F1B7F858D7593E12C15C76FCD62B030E /* MPNativeCache.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		B370CCC69B6B0272C327D247C0B101EA /* MobiPubDisplayAgentType.h in Headers */ = {isa = PBXBuildFile; fileRef = 9B9AB351F102A5BEB7B4002C4572E3BD /* MobiPubDisplayAgentType.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		B3964F7A8636088D2E3144C30E6A5359 /* MPNativeAdError.h in Headers */ = {isa = PBXBuildFile; fileRef = 6841E3A376E7262F14C338CD4D2188B9 /* MPNativeAdError.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		B4F1800C990C05D3C3FE6CC90371E678 /* MPActivityViewControllerHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = 847AA178FEE76C1C02AB9FF57058EC8C /* MPActivityViewControllerHelper.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		B613B308D1CAA454803BF749AF195829 /* MobiAnalyticsTracker.h in Headers */ = {isa = PBXBuildFile; fileRef = 2E802DA71161B3027C06CEFEA7F79ACE /* MobiAnalyticsTracker.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		BB2C8D9A9B429FDBFF8B65C69E6E53AC /* MPVASTCompanionAd.h in Headers */ = {isa = PBXBuildFile; fileRef = 83E898FE850A20C2DC58CC41831CB323 /* MPVASTCompanionAd.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		BBC9246CDF9767640C51288607B24B18 /* NSURL+MPAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 35080DB0B1E1F8562A68639165B753AB /* NSURL+MPAdditions.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		BD498E39D266440A0C772BF78F0D5C0E /* MPAdImpressionTimer.h in Headers */ = {isa = PBXBuildFile; fileRef = 1B4DEC7C72E11ACF82619CCA47E45B6D /* MPAdImpressionTimer.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		C18D108203E7A9B3D0BB34E2B07E2B54 /* MobiLogLevel.h in Headers */ = {isa = PBXBuildFile; fileRef = 7DDEBC6CA00F5EEC15A22AE8DD7B8ED3 /* MobiLogLevel.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		C3FC0F2197B41EBB13DC2C0DEBFB6361 /* MPVideoPlayerContainerView.h in Headers */ = {isa = PBXBuildFile; fileRef = 0319F8D6E4DB6AA2B3EF6576CC647113 /* MPVideoPlayerContainerView.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		C414BCD932E09E61FAB8668B826AF8D3 /* MPBaseBannerAdapter.h in Headers */ = {isa = PBXBuildFile; fileRef = 2CE99D76D39547548AF14BBC3A541405 /* MPBaseBannerAdapter.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		C4E5DA5B62D9923366D0536C4E745D90 /* MPVASTInline.h in Headers */ = {isa = PBXBuildFile; fileRef = 7F211E369016164F83BCF8432F985591 /* MPVASTInline.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		C5DBDDB0203E736CAF60B53CA7B93389 /* MobiConfig.h in Headers */ = {isa = PBXBuildFile; fileRef = 5E205183DC91B48CD8F3CE94CD37CA2D /* MobiConfig.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		C66871CE7F1806FC38D9D76CE86E1A5A /* MPVASTModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 7D1953FFF3872F70E92A01F98B0B3627 /* MPVASTModel.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		C766937958D130F135EAEFB2281878D3 /* MobiFeedAdManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 7DFBE203A4B8E48AEA3AA75F0DD35002 /* MobiFeedAdManager.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		CA0D9BDCC65BC3B84BF60619CC08D332 /* NSDate+MPAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = B0D07ACB550F0F76E36C8C57236CC16A /* NSDate+MPAdditions.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		CA0ED0779287DE8A303DBD0115E3762C /* MPVideoPlayer.h in Headers */ = {isa = PBXBuildFile; fileRef = AE08A7C9B426391991261770060447AF /* MPVideoPlayer.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		CDAFD2567E30EC9961C6DF381D54D479 /* Mobi_ads-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6441E6BEB2595262B0E990484B28719F /* Mobi_ads-dummy.m */; };
+		CDD398A11E90DCBDBE6BBD87C5DD918F /* MPMediaFileCache.h in Headers */ = {isa = PBXBuildFile; fileRef = 3E6D3DF7E26122C3D635223DA9FE3DB0 /* MPMediaFileCache.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		CE54F71E8E57AC6EFC18D7B52D540C73 /* MPBannerCustomEvent.h in Headers */ = {isa = PBXBuildFile; fileRef = DFD563A2B13A10BA65CA116D4F632E42 /* MPBannerCustomEvent.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		D03B82BAD511E0E03AA52BC181122CBE /* MobiAdTact.h in Headers */ = {isa = PBXBuildFile; fileRef = 1BCF9DB11B35A08ED1DADAF3F4C79E7F /* MobiAdTact.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		D0FA87DF850BADC6742B73B0D8DAD251 /* NSString+MPConsentStatus.h in Headers */ = {isa = PBXBuildFile; fileRef = C3EF619AA978B7249DA77F0B062B0FE3 /* NSString+MPConsentStatus.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		D26E3B9618411C9ADA6FE2B07D866BE4 /* MPVideoPlayerViewOverlay.h in Headers */ = {isa = PBXBuildFile; fileRef = F0597B7F680BBCC093B6C67344E3A55C /* MPVideoPlayerViewOverlay.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		D3C6D24B0D563E5B86E9728B9BD60A0F /* MobiRewardedVideoAdManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 8D942DCAF3D865677C1D37C908006571 /* MobiRewardedVideoAdManager.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		D45B35BEBFC05C9C6924FA7A52D538C9 /* MPMRAIDInterstitialCustomEvent.h in Headers */ = {isa = PBXBuildFile; fileRef = 2D3B4F6FE481D1ABBD30BED85054932D /* MPMRAIDInterstitialCustomEvent.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		D58979F81EC164A316C64A6EC1DB8881 /* MPBLogger.h in Headers */ = {isa = PBXBuildFile; fileRef = DA249E29F8C0D15844ECBC41515B1387 /* MPBLogger.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		D5F7DA21C4AB3E908D8555A734974A49 /* MPLastResortDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 14B314807EDAF666E5F701A626AA4F2A /* MPLastResortDelegate.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		D719558710ED8BE80EFF47F1EA51D1BD /* MPInterstitialCustomEventDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 427F988AA8A4294961E52FAC4920EC1F /* MPInterstitialCustomEventDelegate.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		D904B1BF3ACD870DB85A0AEE79BD7432 /* MPImageDownloadQueue.h in Headers */ = {isa = PBXBuildFile; fileRef = 8BE4E0B3883DBD204A016C13C84407F3 /* MPImageDownloadQueue.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		DC45ED23F2B47EDCDB45DF0DB02E6205 /* NSJSONSerialization+MPAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 26BBF8FBCE09BA75F6B13811E52F1E4A /* NSJSONSerialization+MPAdditions.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		DCCF7CC6EF9D1F73E49E230C1AF9B0CC /* NSString+MPAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = B2E8D69C026355DAAC0D7158882CAD1C /* NSString+MPAdditions.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		DD014086F9FE2832D89CCCE155B0CEE2 /* MobiInterstitialManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 68D5C7FA3220A8B939D874478CE2B699 /* MobiInterstitialManager.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		DD065C295EEF4AB32B25F3E06E1CA7EE /* MobiSplashAdManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 0393DBD7F08060E5E74F26F45CA28730 /* MobiSplashAdManager.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		E0BCA4C139BF860D9FB4D558132211E1 /* MPMRAIDInterstitialViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 2282A5879920AD489AC75B0A0BE64466 /* MPMRAIDInterstitialViewController.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		E4A21D89DC57FC7DAFEBFA7AB0771203 /* MPVASTStringUtilities.h in Headers */ = {isa = PBXBuildFile; fileRef = FD063CE6FCD81E6FF1B01F3E77FA5325 /* MPVASTStringUtilities.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		E4AA84825A6568C297E6853348AFEB7E /* MPVASTWrapper.h in Headers */ = {isa = PBXBuildFile; fileRef = 2BFC30808DDF31634875F190AABC7765 /* MPVASTWrapper.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		E679B0553DD22FFB03EB03C61CFA55E3 /* MPContentBlocker.h in Headers */ = {isa = PBXBuildFile; fileRef = E0961861633E5C21FE4EB0267F6232E3 /* MPContentBlocker.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		E6FD8FEDE3E0D9C7B8874BDD78BB3EF2 /* MobiLaunchAdImageView.h in Headers */ = {isa = PBXBuildFile; fileRef = D23B357FC303039E65A532942532382C /* MobiLaunchAdImageView.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		E7BD6F0AC9831373631A5EEEDAF5D82F /* MPInterstitialAdControllerDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = FADC270ECCC52AE90A5CAC86E55A57F8 /* MPInterstitialAdControllerDelegate.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		E81EB230E73781BF2FE9C201CBA40CCB /* MPVASTResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = 2E881AF55A1C424682686BEBEC9ECA43 /* MPVASTResponse.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		E8B3C1B34D84EDFBCF0EFD75B1CFA0C7 /* SKStoreProductViewController+MPAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 38DF599386600D91A01631F8F0DFD52F /* SKStoreProductViewController+MPAdditions.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		EC14C0F3C500716F95E9DE1274726EBA /* MPLogEvent.h in Headers */ = {isa = PBXBuildFile; fileRef = 9DBAF28110B3482D4649BABCBB23B752 /* MPLogEvent.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		EDB0725C9B7DA93B6867C2524C2E72E5 /* MPURLResolver.h in Headers */ = {isa = PBXBuildFile; fileRef = E51D9EFE21620712F2D02EF9266B21E9 /* MPURLResolver.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		EEA1273FED51CD590351CE25AB3A0353 /* MobiRewardedVideoAdapter.h in Headers */ = {isa = PBXBuildFile; fileRef = 1941D945A86F957D7DD6F1BA005AD902 /* MobiRewardedVideoAdapter.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		EEDBA60CE8D323B1D48CC421F7000EF5 /* MobiSplashModel.h in Headers */ = {isa = PBXBuildFile; fileRef = F52AB1C47A9D36B21C16D35E9ABE01B5 /* MobiSplashModel.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		EEECB9513384586888B5FC6C917D6B81 /* MPWebView+Viewability.h in Headers */ = {isa = PBXBuildFile; fileRef = 2666B1052CAE1029199D16660635C12F /* MPWebView+Viewability.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		EF8D8C699B4728558FBDBEB0AAAFC6AB /* MobiFeedModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 02A749458456622EC32BA25495AF2E13 /* MobiFeedModel.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		F0D39D970236819DC52642F1FC71698D /* MPLogManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 6F9B0F609986F14836037577D0603C76 /* MPLogManager.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		F0E1EBAE4AF35D4F2E3FA455D9DBF320 /* MPEnhancedDeeplinkRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = 4C105E06F62B25B6B1E1F53A0966E7AD /* MPEnhancedDeeplinkRequest.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		F24A3E499457CC96431F61B14AAA0885 /* MPNetworkStatus.h in Headers */ = {isa = PBXBuildFile; fileRef = 625C1404D4D6995193D5CEEB1CCBD3FA /* MPNetworkStatus.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		F5481D80E30DD9D8B827AB2AE63A259D /* MPClosableView.h in Headers */ = {isa = PBXBuildFile; fileRef = A7E664B180816D4D21CEA98E31B1A5D4 /* MPClosableView.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		F62FD6C696CC00245EF61F208D2AAB30 /* MPWebView.h in Headers */ = {isa = PBXBuildFile; fileRef = 5CBC568BB440E491BBF2A320AA95CBBE /* MPWebView.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		F74A1E9ED56E7439D62A8F4DE0392E54 /* MobiSplashAdapter.h in Headers */ = {isa = PBXBuildFile; fileRef = AA017E86713638185BFEA5DAD057C948 /* MobiSplashAdapter.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		FA97DA71644E7EA8629702570913D5A9 /* MobiAdNativeDlink.h in Headers */ = {isa = PBXBuildFile; fileRef = 760D815763ECA44B627895942511702F /* MobiAdNativeDlink.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		FAE8114C67CB495BC437B010ACCFE077 /* MPInterstitialCustomEvent.h in Headers */ = {isa = PBXBuildFile; fileRef = 78F648B6847DE391E59C3AA58D9651C0 /* MPInterstitialCustomEvent.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		FD32A157CDED8D238B32E19706448C47 /* MobiAdServerURLBuilder.h in Headers */ = {isa = PBXBuildFile; fileRef = 1E8B0C01F07E1BB1549C08BFDEE13006 /* MobiAdServerURLBuilder.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		FD9FE97F4C460CF217D022E7DEDE8EF1 /* MPActivityViewControllerHelper+TweetShare.h in Headers */ = {isa = PBXBuildFile; fileRef = E489E9420E4FE4C7C4028E9AD2115026 /* MPActivityViewControllerHelper+TweetShare.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		FE7B8E780DF30EC9D0E231F8F67D9788 /* MRBundleManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 03D37F9C4AEACFB4BEBE1C79C9FBFCB8 /* MRBundleManager.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		FE7E38EFD5D412234B65C4AC6E074DCC /* MPVASTLinearAd.h in Headers */ = {isa = PBXBuildFile; fileRef = 38B0BE9EBF74CA3DCFC43D434FB3E7D2 /* MPVASTLinearAd.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		FE82E7424AFDED332A2D241D3E494CFD /* UIColor+MPAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = DE92348FDFBD72BA2EAA09FAAC6B1F17 /* UIColor+MPAdditions.h */; settings = {ATTRIBUTES = (Project, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		103D82B019413D1E6AEC2C4933FD1578 /* Mobi_ads.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Mobi_ads.release.xcconfig; sourceTree = "<group>"; };
+		02A749458456622EC32BA25495AF2E13 /* MobiFeedModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MobiFeedModel.h; sourceTree = "<group>"; };
+		02BB5B746280CB47DA667DB3F005EB8D /* MPIdentityProvider.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MPIdentityProvider.h; sourceTree = "<group>"; };
+		0319F8D6E4DB6AA2B3EF6576CC647113 /* MPVideoPlayerContainerView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MPVideoPlayerContainerView.h; sourceTree = "<group>"; };
+		0393DBD7F08060E5E74F26F45CA28730 /* MobiSplashAdManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MobiSplashAdManager.h; sourceTree = "<group>"; };
+		03D37F9C4AEACFB4BEBE1C79C9FBFCB8 /* MRBundleManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MRBundleManager.h; sourceTree = "<group>"; };
+		045FE09B7922CD436D564E0712463A78 /* Mobi_ads-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Mobi_ads-prefix.pch"; sourceTree = "<group>"; };
+		067E09CC8DA25121BE3A5F04BD1D569E /* MPVASTConstant.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MPVASTConstant.h; sourceTree = "<group>"; };
+		06B4CAF9EB9B2A2C7A91B67B266FE958 /* MobiAdVideoVideoAdm.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MobiAdVideoVideoAdm.h; sourceTree = "<group>"; };
+		071CA30D308D88088E9117CF229D7869 /* MobiLaunchAdButton.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MobiLaunchAdButton.h; sourceTree = "<group>"; };
+		07975F8E68F897B512ADA7D9AB3DA1DB /* MobiPubSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobiPubSDK.framework; path = Mobiexchanger/Classes/MobiPubSDK.framework; sourceTree = "<group>"; };
+		07AAEFBF268A2D836C41DA5AB196267F /* MPPrivateBannerCustomEventDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MPPrivateBannerCustomEventDelegate.h; sourceTree = "<group>"; };
+		08C676AFC0E7E01B215298057A795CC6 /* MobiAdNativeImg.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MobiAdNativeImg.h; sourceTree = "<group>"; };
+		0A86AF6EC475255F721A168753004665 /* MPXMLParser.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MPXMLParser.h; sourceTree = "<group>"; };
+		0A9AF456908F0CE5486CF3FBDFA31F56 /* MobiTimer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MobiTimer.h; sourceTree = "<group>"; };
+		0B5C579489BB02A3BA685F3B1B73B73A /* Mobi_ads.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = Mobi_ads.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		0C9EABEC70298E3E2F65A2D2D7D6FC25 /* MobiRewardedVideoCustomEvent.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MobiRewardedVideoCustomEvent.h; sourceTree = "<group>"; };
+		0D145AFA81FA9F5472181DF65DA27AA8 /* MPVASTMacroProcessor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MPVASTMacroProcessor.h; sourceTree = "<group>"; };
+		0DE7084A42C4F2106749FC5DD119F1B5 /* MPStopwatch.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MPStopwatch.h; sourceTree = "<group>"; };
+		10040EC90CE9C7D3B952C8C4FBFAB43D /* UIImage+Library.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIImage+Library.h"; sourceTree = "<group>"; };
+		103FB6B4A5261FFF28635AE257BA63D5 /* MobiPubSDK */ = {isa = PBXFileReference; includeInIndex = 1; path = MobiPubSDK; sourceTree = "<group>"; };
+		10D792D52E54B8E8933BCF25022DBD7F /* MobiFeedError.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MobiFeedError.h; sourceTree = "<group>"; };
+		12FC8462FC753500EF7ADC005A854794 /* UIView+MPAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIView+MPAdditions.h"; sourceTree = "<group>"; };
+		1442FAB60675327C80F2F2040EB34D1B /* MPAdServerKeys.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MPAdServerKeys.h; sourceTree = "<group>"; };
+		14B314807EDAF666E5F701A626AA4F2A /* MPLastResortDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MPLastResortDelegate.h; sourceTree = "<group>"; };
+		170236F492B59FFB12AB30A56F8024EB /* MobiGlobal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MobiGlobal.h; sourceTree = "<group>"; };
+		1941D945A86F957D7DD6F1BA005AD902 /* MobiRewardedVideoAdapter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MobiRewardedVideoAdapter.h; sourceTree = "<group>"; };
+		1A57A147A6E7FA4DCC5DA4F7B483F809 /* MRProperty.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MRProperty.h; sourceTree = "<group>"; };
+		1B4DEC7C72E11ACF82619CCA47E45B6D /* MPAdImpressionTimer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MPAdImpressionTimer.h; sourceTree = "<group>"; };
+		1B8E2CDEB05D49CC3EB8523443FBD4AD /* MobiRealTimeTimer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MobiRealTimeTimer.h; sourceTree = "<group>"; };
+		1BCF9DB11B35A08ED1DADAF3F4C79E7F /* MobiAdTact.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MobiAdTact.h; sourceTree = "<group>"; };
+		1C52E065A59E2C307832B6ABD9A7C468 /* MobiPrivateSplashCustomEventDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MobiPrivateSplashCustomEventDelegate.h; sourceTree = "<group>"; };
+		1DBCF0B0FB5A594ADE917BDD5CDD6DE6 /* MobiRewardedVideoReward.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MobiRewardedVideoReward.h; sourceTree = "<group>"; };
+		1DC1678212B4F76C58EEF2F6B6EC61D0 /* MPVASTError.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MPVASTError.h; sourceTree = "<group>"; };
+		1E8B0C01F07E1BB1549C08BFDEE13006 /* MobiAdServerURLBuilder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MobiAdServerURLBuilder.h; sourceTree = "<group>"; };
+		1F01645003CA11025EB7E597557BC019 /* MobiPrivateFeedCustomEvent.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MobiPrivateFeedCustomEvent.h; sourceTree = "<group>"; };
+		204D31B35D228D424BD2251AA081107D /* MPVASTTracking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MPVASTTracking.h; sourceTree = "<group>"; };
+		207778B6359AE7AEC053205381C2053C /* MobiLaunchAdWebViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MobiLaunchAdWebViewController.h; sourceTree = "<group>"; };
+		2077F740F531C94526AEFFD8826A1FD7 /* NSMutableArray+MPAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSMutableArray+MPAdditions.h"; sourceTree = "<group>"; };
+		20F4902E2E1CC7D29A2DC8A1A9186E77 /* MobiFeedCustomEvent.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MobiFeedCustomEvent.h; sourceTree = "<group>"; };
+		2282A5879920AD489AC75B0A0BE64466 /* MPMRAIDInterstitialViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MPMRAIDInterstitialViewController.h; sourceTree = "<group>"; };
+		22FD1DAF2F0173E39ED7F4ECAA8EBC24 /* MobiLaunchAdConst.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MobiLaunchAdConst.h; sourceTree = "<group>"; };
 		259BCC05CE06A6BC9B06803BF592EC92 /* libMobi_ads.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libMobi_ads.a; path = libMobi_ads.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		45DF44098257C916CA14947323702B60 /* Mobi_ads.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Mobi_ads.debug.xcconfig; sourceTree = "<group>"; };
-		5A287CE8A0EB2AB6DD9AEE57ABB5EA93 /* Helloaaaa.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Helloaaaa.h; path = Mobiexchanger/Classes/Helloaaaa.h; sourceTree = "<group>"; };
-		8E1EC50BE5986F5EB4F4EB7FE0195394 /* Helloaaaa.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = Helloaaaa.m; path = Mobiexchanger/Classes/Helloaaaa.m; sourceTree = "<group>"; };
-		9CAA620F11A2CDE9EA25E11287E38BA6 /* Mobi_ads-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Mobi_ads-dummy.m"; sourceTree = "<group>"; };
-		CB037A0B6DD99F8FEC27738C9E9659B3 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
-		CD1B2817BF583228DC59EE9AB4560BC7 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
-		DB2B76F63B4CA3EEE3FE775C7608888C /* Mobi_ads.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = Mobi_ads.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		E110E52E4A9BA7D7E4FC6E1C12821525 /* Mobi_ads-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Mobi_ads-prefix.pch"; sourceTree = "<group>"; };
+		2666B1052CAE1029199D16660635C12F /* MPWebView+Viewability.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MPWebView+Viewability.h"; sourceTree = "<group>"; };
+		26982A02A89D56B1FC318881378F182F /* MPVASTResource.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MPVASTResource.h; sourceTree = "<group>"; };
+		26BBF8FBCE09BA75F6B13811E52F1E4A /* NSJSONSerialization+MPAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSJSONSerialization+MPAdditions.h"; sourceTree = "<group>"; };
+		2AF2762AF70AAC350A3FF02DABBF35D0 /* MRBridge.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MRBridge.h; sourceTree = "<group>"; };
+		2BFC30808DDF31634875F190AABC7765 /* MPVASTWrapper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MPVASTWrapper.h; sourceTree = "<group>"; };
+		2CB0A617AFC0053F0338247C8811F2EF /* MPBannerCustomEventAdapter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MPBannerCustomEventAdapter.h; sourceTree = "<group>"; };
+		2CE8F7928C34DC54D8BB376604B44F90 /* MPMemoryCache.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MPMemoryCache.h; sourceTree = "<group>"; };
+		2CE99D76D39547548AF14BBC3A541405 /* MPBaseBannerAdapter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MPBaseBannerAdapter.h; sourceTree = "<group>"; };
+		2D3B4F6FE481D1ABBD30BED85054932D /* MPMRAIDInterstitialCustomEvent.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MPMRAIDInterstitialCustomEvent.h; sourceTree = "<group>"; };
+		2E5AE332C45CB27002951A6545C85C3B /* MobiURL.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MobiURL.h; sourceTree = "<group>"; };
+		2E802DA71161B3027C06CEFEA7F79ACE /* MobiAnalyticsTracker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MobiAnalyticsTracker.h; sourceTree = "<group>"; };
+		2E881AF55A1C424682686BEBEC9ECA43 /* MPVASTResponse.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MPVASTResponse.h; sourceTree = "<group>"; };
+		2FB5532DD1EC2C4D3F071FE9EC5815F8 /* MobiPrivateSplashCustomEvent.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MobiPrivateSplashCustomEvent.h; sourceTree = "<group>"; };
+		30044D180797EA9A8F703784147155D7 /* MPVASTCreative.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MPVASTCreative.h; sourceTree = "<group>"; };
+		32E49E18D4EAF98403C0B9B8D9FFC08C /* MPVASTMediaFile.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MPVASTMediaFile.h; sourceTree = "<group>"; };
+		334C536E55281E6C357AC5A03E377A6E /* MobiURLRequest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MobiURLRequest.h; sourceTree = "<group>"; };
+		35080DB0B1E1F8562A68639165B753AB /* NSURL+MPAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSURL+MPAdditions.h"; sourceTree = "<group>"; };
+		38B0BE9EBF74CA3DCFC43D434FB3E7D2 /* MPVASTLinearAd.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MPVASTLinearAd.h; sourceTree = "<group>"; };
+		38DF599386600D91A01631F8F0DFD52F /* SKStoreProductViewController+MPAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SKStoreProductViewController+MPAdditions.h"; sourceTree = "<group>"; };
+		39F0BA9B9C77D5FFB55F970324E686EB /* MRNativeCommandHandler.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MRNativeCommandHandler.h; sourceTree = "<group>"; };
+		3B63DDFAE14E0C58E9FDF0F69B565C44 /* MRExpandModalViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MRExpandModalViewController.h; sourceTree = "<group>"; };
+		3BD32A4DD15D78FFF731F78319089D9A /* MobiAdVideoBaseClass.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MobiAdVideoBaseClass.h; sourceTree = "<group>"; };
+		3C64662212BCC00186D72FDE695826F8 /* MobiPub+Utility.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MobiPub+Utility.h"; sourceTree = "<group>"; };
+		3D5B84047C337C1338AA4161EA81E2D9 /* MPATSSetting.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MPATSSetting.h; sourceTree = "<group>"; };
+		3E6D3DF7E26122C3D635223DA9FE3DB0 /* MPMediaFileCache.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MPMediaFileCache.h; sourceTree = "<group>"; };
+		3F0FD1B3D866937445EF5FB1331B7994 /* MobiAdConfigServer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MobiAdConfigServer.h; sourceTree = "<group>"; };
+		3F4916FC5BB2AD97AFEFA128B3F7C499 /* MPCoreInstanceProvider+MRAID.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MPCoreInstanceProvider+MRAID.h"; sourceTree = "<group>"; };
+		40E7939D7CF54139D0A8CD534761E202 /* MobiAPIEndpoints.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MobiAPIEndpoints.h; sourceTree = "<group>"; };
+		427F988AA8A4294961E52FAC4920EC1F /* MPInterstitialCustomEventDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MPInterstitialCustomEventDelegate.h; sourceTree = "<group>"; };
+		4543DD5702D28A6AB0CC8B72168F379F /* MPVASTCompanionAdView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MPVASTCompanionAdView.h; sourceTree = "<group>"; };
+		459922CB66D982E5489DDC17BC35B390 /* MPURLActionInfo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MPURLActionInfo.h; sourceTree = "<group>"; };
+		478198E0782F792123DFCD3A2B74C73D /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		48550F5C6D097613DBE5EE8CC92272E5 /* MobiSplash.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MobiSplash.h; sourceTree = "<group>"; };
+		486CB59385176B26DFD057B7F8209609 /* MPViewabilityTracker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MPViewabilityTracker.h; sourceTree = "<group>"; };
+		4B37B572BD74621EBD379A7368F8AF85 /* NSBundle+MPAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSBundle+MPAdditions.h"; sourceTree = "<group>"; };
+		4BC7CBAA2E0FB87AAE7DFF56F1F0F593 /* MPAdDestinationDisplayAgent.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MPAdDestinationDisplayAgent.h; sourceTree = "<group>"; };
+		4C105E06F62B25B6B1E1F53A0966E7AD /* MPEnhancedDeeplinkRequest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MPEnhancedDeeplinkRequest.h; sourceTree = "<group>"; };
+		4CD9BF449E87EE59A39A12A5430A59CA /* MPVideoConfig.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MPVideoConfig.h; sourceTree = "<group>"; };
+		4E7ECDA8F0AC2B8A23EA98EF239EE215 /* MPCountdownTimerView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MPCountdownTimerView.h; sourceTree = "<group>"; };
+		50087597217F7AF8F25F68C3F7C6CF58 /* MobiNativeExpressFeedView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MobiNativeExpressFeedView.h; sourceTree = "<group>"; };
+		5065297F9DA9CBE0FBAE616C4964BA28 /* MobiExperimentProvider.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MobiExperimentProvider.h; sourceTree = "<group>"; };
+		51000582319B20614B8E4D5B8218CFB2 /* NSError+MPAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSError+MPAdditions.h"; sourceTree = "<group>"; };
+		52024755131EEB76A21A22AB13A2034F /* MPInterstitialViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MPInterstitialViewController.h; sourceTree = "<group>"; };
+		53E7D346CA776248BC749C7412091E6C /* MPVideoEvent.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MPVideoEvent.h; sourceTree = "<group>"; };
+		54730749AD661622F24D6C7F4A09BD4C /* MPAdViewDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MPAdViewDelegate.h; sourceTree = "<group>"; };
+		550031E429282BF96BD256C7344F248D /* MPDeviceInformation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MPDeviceInformation.h; sourceTree = "<group>"; };
+		57D7C882900052C917FAA42C11E74A4E /* MPPrivateInterstitialCustomEventDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MPPrivateInterstitialCustomEventDelegate.h; sourceTree = "<group>"; };
+		5B4771187018AC969C084F6AC8845991 /* MobiLaunchAdDownloader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MobiLaunchAdDownloader.h; sourceTree = "<group>"; };
+		5BE6798029C7F67EB5B77090EB2E7B0F /* MobiFeedAdapter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MobiFeedAdapter.h; sourceTree = "<group>"; };
+		5C44AA7598DE459C8D194A1043CECB6D /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		5C4CFA011F3CA75394D1A4696B4F89CD /* Mobi_ads.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Mobi_ads.debug.xcconfig; sourceTree = "<group>"; };
+		5CBC568BB440E491BBF2A320AA95CBBE /* MPWebView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MPWebView.h; sourceTree = "<group>"; };
+		5E205183DC91B48CD8F3CE94CD37CA2D /* MobiConfig.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MobiConfig.h; sourceTree = "<group>"; };
+		60B20559C39217DC60D9FBEE65856DFB /* MPForceableOrientationProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MPForceableOrientationProtocol.h; sourceTree = "<group>"; };
+		61895FE675BC51A09303466C779A6C0E /* MPAdView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MPAdView.h; sourceTree = "<group>"; };
+		625C1404D4D6995193D5CEEB1CCBD3FA /* MPNetworkStatus.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MPNetworkStatus.h; sourceTree = "<group>"; };
+		6266970D78B0E47D64B0B7174E04E792 /* MobiAdBannerBaseClass.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MobiAdBannerBaseClass.h; sourceTree = "<group>"; };
+		6441E6BEB2595262B0E990484B28719F /* Mobi_ads-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Mobi_ads-dummy.m"; sourceTree = "<group>"; };
+		64C91E5F95C16B61B79A8257233491A9 /* UIViewController+MobiNav.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIViewController+MobiNav.h"; sourceTree = "<group>"; };
+		6841E3A376E7262F14C338CD4D2188B9 /* MPNativeAdError.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MPNativeAdError.h; sourceTree = "<group>"; };
+		68D5C7FA3220A8B939D874478CE2B699 /* MobiInterstitialManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MobiInterstitialManager.h; sourceTree = "<group>"; };
+		69C328F9E3B54B9A76671092B9605436 /* MPImpressionData.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MPImpressionData.h; sourceTree = "<group>"; };
+		69CEAB5523B138050DF3DB4F6225E094 /* MobiPrivateInterstitialCustomEvent.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MobiPrivateInterstitialCustomEvent.h; sourceTree = "<group>"; };
+		6CAC349C4AC60ABD35A222DBFF406010 /* MobiAdClickResolver.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MobiAdClickResolver.h; sourceTree = "<group>"; };
+		6F9B0F609986F14836037577D0603C76 /* MPLogManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MPLogManager.h; sourceTree = "<group>"; };
+		7113001CE51FEBAB48F1C323CC5CA6A7 /* MPVASTIndustryIconView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MPVASTIndustryIconView.h; sourceTree = "<group>"; };
+		73794077E25956F25AB1B88AB9BBDA6B /* MPViewabilityAdapter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MPViewabilityAdapter.h; sourceTree = "<group>"; };
+		760D815763ECA44B627895942511702F /* MobiAdNativeDlink.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MobiAdNativeDlink.h; sourceTree = "<group>"; };
+		7668744C46EC10FDBF39ADE214040C62 /* MobiLaunchAdCache.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MobiLaunchAdCache.h; sourceTree = "<group>"; };
+		78F3A286EC24CFA523E8631882DD6D13 /* MPVideoPlayerView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MPVideoPlayerView.h; sourceTree = "<group>"; };
+		78F648B6847DE391E59C3AA58D9651C0 /* MPInterstitialCustomEvent.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MPInterstitialCustomEvent.h; sourceTree = "<group>"; };
+		7D1953FFF3872F70E92A01F98B0B3627 /* MPVASTModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MPVASTModel.h; sourceTree = "<group>"; };
+		7DDEBC6CA00F5EEC15A22AE8DD7B8ED3 /* MobiLogLevel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MobiLogLevel.h; sourceTree = "<group>"; };
+		7DFBE203A4B8E48AEA3AA75F0DD35002 /* MobiFeedAdManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MobiFeedAdManager.h; sourceTree = "<group>"; };
+		7F211E369016164F83BCF8432F985591 /* MPVASTInline.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MPVASTInline.h; sourceTree = "<group>"; };
+		812EE58D1742A60EFFC831FC56D71F2A /* MobiLaunchAd.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MobiLaunchAd.h; sourceTree = "<group>"; };
+		82217DCFBE0C664BFEACD544319F0C8D /* MPVASTManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MPVASTManager.h; sourceTree = "<group>"; };
+		83E898FE850A20C2DC58CC41831CB323 /* MPVASTCompanionAd.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MPVASTCompanionAd.h; sourceTree = "<group>"; };
+		847AA178FEE76C1C02AB9FF57058EC8C /* MPActivityViewControllerHelper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MPActivityViewControllerHelper.h; sourceTree = "<group>"; };
+		89F94BFB13ADD813F3F1C135D3D611B3 /* MobiSplashCustomEvent.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MobiSplashCustomEvent.h; sourceTree = "<group>"; };
+		8BE4E0B3883DBD204A016C13C84407F3 /* MPImageDownloadQueue.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MPImageDownloadQueue.h; sourceTree = "<group>"; };
+		8D942DCAF3D865677C1D37C908006571 /* MobiRewardedVideoAdManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MobiRewardedVideoAdManager.h; sourceTree = "<group>"; };
+		8DD773F9E04DF53987B014140F94EC2E /* MPVASTDurationOffset.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MPVASTDurationOffset.h; sourceTree = "<group>"; };
+		91F5DD4DFCE739B107C100A8E44FB7B2 /* MPDiskLRUCache.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MPDiskLRUCache.h; sourceTree = "<group>"; };
+		93CB7076D67172CE1F6668F9017D257E /* MPProgressOverlayView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MPProgressOverlayView.h; sourceTree = "<group>"; };
+		94079EEA807093AD25B4665D1BA5885A /* MPCoreInstanceProvider.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MPCoreInstanceProvider.h; sourceTree = "<group>"; };
+		954D5911FCA02BC08A4D4A449100D039 /* Mobi_ads.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Mobi_ads.release.xcconfig; sourceTree = "<group>"; };
+		95D1790F787DA2A6A64B019B3CB80AC0 /* MPVASTAd.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MPVASTAd.h; sourceTree = "<group>"; };
+		96536D6ED797E13AD9C7772594FF3FA6 /* MRError.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MRError.h; sourceTree = "<group>"; };
+		98629A5EB48856AEEBB19CB6A920871E /* MobiAdNativeBaseClass.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MobiAdNativeBaseClass.h; sourceTree = "<group>"; };
+		9B9AB351F102A5BEB7B4002C4572E3BD /* MobiPubDisplayAgentType.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MobiPubDisplayAgentType.h; sourceTree = "<group>"; };
+		9D29B8CA70034C0AE0EEFF8C1489619C /* MRConstants.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MRConstants.h; sourceTree = "<group>"; };
+		9DBAF28110B3482D4649BABCBB23B752 /* MPLogEvent.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MPLogEvent.h; sourceTree = "<group>"; };
+		9F897DF47D3106FCBF3FD0A6E0FF0C96 /* MPBannerCustomEvent+Internal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MPBannerCustomEvent+Internal.h"; sourceTree = "<group>"; };
+		A0AB45FE7D5365C8166E186087D8F009 /* MPVASTResourceView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MPVASTResourceView.h; sourceTree = "<group>"; };
+		A6856448A236B4E28822365E628934EB /* MRCommand.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MRCommand.h; sourceTree = "<group>"; };
+		A7E664B180816D4D21CEA98E31B1A5D4 /* MPClosableView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MPClosableView.h; sourceTree = "<group>"; };
+		A80C9FFA94AC7CFA8EEFE02484BE026C /* MobiRewardedVideoError.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MobiRewardedVideoError.h; sourceTree = "<group>"; };
+		A89F05ED6017DD9A38A2F64C3D523EC1 /* MPInterstitialAdManagerDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MPInterstitialAdManagerDelegate.h; sourceTree = "<group>"; };
+		AA017E86713638185BFEA5DAD057C948 /* MobiSplashAdapter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MobiSplashAdapter.h; sourceTree = "<group>"; };
+		AC66E251BAD7A747B624E1B1E2E43005 /* MPLogging.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MPLogging.h; sourceTree = "<group>"; };
+		AE08A7C9B426391991261770060447AF /* MPVideoPlayer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MPVideoPlayer.h; sourceTree = "<group>"; };
+		B0D07ACB550F0F76E36C8C57236CC16A /* NSDate+MPAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSDate+MPAdditions.h"; sourceTree = "<group>"; };
+		B2E8D69C026355DAAC0D7158882CAD1C /* NSString+MPAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSString+MPAdditions.h"; sourceTree = "<group>"; };
+		B4D2A54BD54C7E6D25E560D3B9B8C00E /* MobiPubConfiguration.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MobiPubConfiguration.h; sourceTree = "<group>"; };
+		BA2A9B6DF2D5466084B58C6183ADFE77 /* MobiHTTPNetworkSession.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MobiHTTPNetworkSession.h; sourceTree = "<group>"; };
+		BA6E9A8FC40D9DEFF6337EE8CF898F0E /* MPVideoPlayerFullScreenVASTAdOverlay.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MPVideoPlayerFullScreenVASTAdOverlay.h; sourceTree = "<group>"; };
+		BBB23F59D564AA2F2F3FDA2D0E3853E0 /* MobiSplashError.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MobiSplashError.h; sourceTree = "<group>"; };
+		BD83C9E77952A0D058E0D04F17BE6DC4 /* MPWebBrowserUserAgentInfo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MPWebBrowserUserAgentInfo.h; sourceTree = "<group>"; };
+		BDA71FC851489BE4D61E7DAF0D9F05B4 /* MPReachabilityManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MPReachabilityManager.h; sourceTree = "<group>"; };
+		C38CAD237C9097DA7A4DF4DAC0ACE7C2 /* MPReachability.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MPReachability.h; sourceTree = "<group>"; };
+		C3EF619AA978B7249DA77F0B062B0FE3 /* NSString+MPConsentStatus.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSString+MPConsentStatus.h"; sourceTree = "<group>"; };
+		C4233C86C90B8C229762E0FA07A42036 /* MPHTMLInterstitialViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MPHTMLInterstitialViewController.h; sourceTree = "<group>"; };
+		C4402D94FF13438A71E0C9847C09931F /* MPInterstitialAdManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MPInterstitialAdManager.h; sourceTree = "<group>"; };
+		C76F9B02825234DDCFDFA28C7CC8165F /* MPError.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MPError.h; sourceTree = "<group>"; };
+		CBB5E9684E5395E397F499AB30C033BC /* MPEngineInfo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MPEngineInfo.h; sourceTree = "<group>"; };
+		CBBDD7533A15166A14B4FFD92E2FDC11 /* NSHTTPURLResponse+MPAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSHTTPURLResponse+MPAdditions.h"; sourceTree = "<group>"; };
+		CC43277C853049C1F5F784273CBD916E /* MPVideoPlayerViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MPVideoPlayerViewController.h; sourceTree = "<group>"; };
+		CC6506E6943BB53CC5C9BF2E9BFB3C21 /* MobiInterstitialModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MobiInterstitialModel.h; sourceTree = "<group>"; };
+		CEDC97758E7AF982F3BC317A72E1746E /* MPImageLoader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MPImageLoader.h; sourceTree = "<group>"; };
+		D08BE01BEA79309222CEECDB2AA3D99D /* MobiLaunchAdImageManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MobiLaunchAdImageManager.h; sourceTree = "<group>"; };
+		D0E7196F912A81CE68D9EE83B84FDA10 /* MobiAdTargeting.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MobiAdTargeting.h; sourceTree = "<group>"; };
+		D126ED12E7D5EB104FFBD46E4A5F2681 /* MPInterstitialCustomEventAdapter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MPInterstitialCustomEventAdapter.h; sourceTree = "<group>"; };
+		D15E58661055CF307CCFE7D40431B5C4 /* MobiPub.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MobiPub.h; sourceTree = "<group>"; };
+		D19FC81BB1ED13B8D7C8B0B2A9701783 /* MobiPrivateRewardedVideoCustomEventDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MobiPrivateRewardedVideoCustomEventDelegate.h; sourceTree = "<group>"; };
+		D23B357FC303039E65A532942532382C /* MobiLaunchAdImageView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MobiLaunchAdImageView.h; sourceTree = "<group>"; };
+		D2CBA3B74EEDC52FE86548613C201D37 /* MobiRewardedVideoModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MobiRewardedVideoModel.h; sourceTree = "<group>"; };
+		D45FA3D1FC0920204E8ED93E40C257F6 /* MobiPubSDK */ = {isa = PBXFileReference; includeInIndex = 1; name = MobiPubSDK; path = Mobiexchanger/Classes/MobiPubSDK.framework/Versions/A/MobiPubSDK; sourceTree = "<group>"; };
+		D5201C3D264B3B383AFDD7CF82D36AFE /* MPVASTInterstitialCustomEvent.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MPVASTInterstitialCustomEvent.h; sourceTree = "<group>"; };
+		D61384B5211F0FBD37D8E8C255374AA3 /* MPInterstitialAdController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MPInterstitialAdController.h; sourceTree = "<group>"; };
+		D9632647289B4D574E646BC190E90338 /* MPMRAIDBannerCustomEvent.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MPMRAIDBannerCustomEvent.h; sourceTree = "<group>"; };
+		DA249E29F8C0D15844ECBC41515B1387 /* MPBLogger.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MPBLogger.h; sourceTree = "<group>"; };
+		DAEF131FC27144DCA46A62327D3FF926 /* FLAnimatedImage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FLAnimatedImage.h; sourceTree = "<group>"; };
+		DB5347E27625C6FEC2EA797B19B15B79 /* MPConstants.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MPConstants.h; sourceTree = "<group>"; };
+		DC5EBC6714C6F23F51522124DBD6AEDD /* MPConsentStatus.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MPConsentStatus.h; sourceTree = "<group>"; };
+		DE486BFC48D49BC6702374BF4FC34CAF /* MobiFeed.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MobiFeed.h; sourceTree = "<group>"; };
+		DE92348FDFBD72BA2EAA09FAAC6B1F17 /* UIColor+MPAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIColor+MPAdditions.h"; sourceTree = "<group>"; };
+		DF06AC68AEA6A797A3EA578BA15DB6DD /* MPBannerCustomEventDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MPBannerCustomEventDelegate.h; sourceTree = "<group>"; };
+		DFD563A2B13A10BA65CA116D4F632E42 /* MPBannerCustomEvent.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MPBannerCustomEvent.h; sourceTree = "<group>"; };
+		E0961861633E5C21FE4EB0267F6232E3 /* MPContentBlocker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MPContentBlocker.h; sourceTree = "<group>"; };
+		E09BABA76F7F38570F589F68DA5B0286 /* MRVideoPlayerManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MRVideoPlayerManager.h; sourceTree = "<group>"; };
+		E0BEECA1C27336730F67DA79BF88DF5B /* MPBaseInterstitialAdapter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MPBaseInterstitialAdapter.h; sourceTree = "<group>"; };
+		E124B3102212C245A75F546A277B55AF /* MPUserInteractionGestureRecognizer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MPUserInteractionGestureRecognizer.h; sourceTree = "<group>"; };
+		E484402BBA867A53C0525C665E94F0F4 /* MobiHTTPNetworkTaskData.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MobiHTTPNetworkTaskData.h; sourceTree = "<group>"; };
+		E489E9420E4FE4C7C4028E9AD2115026 /* MPActivityViewControllerHelper+TweetShare.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MPActivityViewControllerHelper+TweetShare.h"; sourceTree = "<group>"; };
+		E4A5E6203F1F9505CE80A840AE79CEC5 /* MPConsoleLogger.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MPConsoleLogger.h; sourceTree = "<group>"; };
+		E4CF9B922F94EA5725F5B81A4F43850D /* MPHTMLBannerCustomEvent.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MPHTMLBannerCustomEvent.h; sourceTree = "<group>"; };
+		E51D9EFE21620712F2D02EF9266B21E9 /* MPURLResolver.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MPURLResolver.h; sourceTree = "<group>"; };
+		E805E468D0633E82060027D45ACA5855 /* MPBannerAdManagerDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MPBannerAdManagerDelegate.h; sourceTree = "<group>"; };
+		E88DAA8C5EFAC68E6B943F002F444A3F /* MPExtendedHitBoxButton.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MPExtendedHitBoxButton.h; sourceTree = "<group>"; };
+		E8BEE58D8A02961A81B1A872FF449D8F /* MRController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MRController.h; sourceTree = "<group>"; };
+		EA3711A3C514AF81C074715AA2FD8509 /* MPBLogLevel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MPBLogLevel.h; sourceTree = "<group>"; };
+		EB593B35B90E584233775F0F248BF797 /* MobiInterstitialCustomEvent.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MobiInterstitialCustomEvent.h; sourceTree = "<group>"; };
+		EBB282CA6E307E86E6167B198A737DA2 /* NSBundle+Library.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSBundle+Library.h"; sourceTree = "<group>"; };
+		ECFB1A60F62A4F1D0BF26F3A597AEE6B /* MobiRewardedVideo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MobiRewardedVideo.h; sourceTree = "<group>"; };
+		ED94A0CABBF2D7DF6B7DB39977E19BB0 /* NSDictionary+MPAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+MPAdditions.h"; sourceTree = "<group>"; };
+		EDCE9D068CE34B4325A3C1D76144624B /* MPAdWebViewAgent.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MPAdWebViewAgent.h; sourceTree = "<group>"; };
+		EF7430F60DA4313F3DB56D80277E7B43 /* UIButton+MPAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIButton+MPAdditions.h"; sourceTree = "<group>"; };
+		F0597B7F680BBCC093B6C67344E3A55C /* MPVideoPlayerViewOverlay.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MPVideoPlayerViewOverlay.h; sourceTree = "<group>"; };
+		F1B7F858D7593E12C15C76FCD62B030E /* MPNativeCache.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MPNativeCache.h; sourceTree = "<group>"; };
+		F2C640FBB23AFEAE3880A8A51B29366A /* MobiLaunchImageView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MobiLaunchImageView.h; sourceTree = "<group>"; };
+		F367C588B0764ADDD6943C38A5064844 /* MPBannerAdManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MPBannerAdManager.h; sourceTree = "<group>"; };
+		F43C1B03A8125DC5FD98FCFC779A7D39 /* FLAnimatedImageView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FLAnimatedImageView.h; sourceTree = "<group>"; };
+		F47F7CDE05E34B92F26ADC7A51222415 /* MPVASTIndustryIcon.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MPVASTIndustryIcon.h; sourceTree = "<group>"; };
+		F4816ED2E4B85BF24842A241476BF220 /* MPVASTTrackingEvent.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MPVASTTrackingEvent.h; sourceTree = "<group>"; };
+		F486C5107B675DCCE4762171808FC77E /* MobiLaunchAdConfiguration.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MobiLaunchAdConfiguration.h; sourceTree = "<group>"; };
+		F52AB1C47A9D36B21C16D35E9ABE01B5 /* MobiSplashModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MobiSplashModel.h; sourceTree = "<group>"; };
+		F5C807CC337545BDE746699DA1BBFD37 /* MPViewabilityOption.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MPViewabilityOption.h; sourceTree = "<group>"; };
+		F67705231484C0EA371158D08FC7D963 /* MPHTMLInterstitialCustomEvent.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MPHTMLInterstitialCustomEvent.h; sourceTree = "<group>"; };
+		F94523F6A486971EDCFD40C606DADE07 /* MobiInterstitialError.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MobiInterstitialError.h; sourceTree = "<group>"; };
+		FADC270ECCC52AE90A5CAC86E55A57F8 /* MPInterstitialAdControllerDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MPInterstitialAdControllerDelegate.h; sourceTree = "<group>"; };
+		FB195CCE9B5EB56978FB4E6FBEF9B81F /* MobiInterstitial.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MobiInterstitial.h; sourceTree = "<group>"; };
+		FB91682BF68274016224FC080EE70FF0 /* MobiInterstitialAdapter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MobiInterstitialAdapter.h; sourceTree = "<group>"; };
+		FD063CE6FCD81E6FF1B01F3E77FA5325 /* MPVASTStringUtilities.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MPVASTStringUtilities.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		DBA37905EC8032BFCF69F13C32FF6B1A /* Frameworks */ = {
+		9BC6B8C96871E1BAEA8F800127315C4F /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -36,18 +447,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		249DCEF86F78E4A06EFA3FD49918A78C /* Mobi_ads */ = {
-			isa = PBXGroup;
-			children = (
-				5A287CE8A0EB2AB6DD9AEE57ABB5EA93 /* Helloaaaa.h */,
-				8E1EC50BE5986F5EB4F4EB7FE0195394 /* Helloaaaa.m */,
-				A289DBA3C9B53A3C73297E4DCED52FB3 /* Pod */,
-				8DF34A58F7AC4C1CD143737A523AD9BF /* Support Files */,
-			);
-			name = Mobi_ads;
-			path = ../..;
-			sourceTree = "<group>";
-		};
 		633E110467C94F2993D0CB92A0687240 /* Products */ = {
 			isa = PBXGroup;
 			children = (
@@ -56,24 +455,64 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		8DF34A58F7AC4C1CD143737A523AD9BF /* Support Files */ = {
+		661C4F1A9AA7AD472DE51D958DCE922F /* A */ = {
 			isa = PBXGroup;
 			children = (
-				9CAA620F11A2CDE9EA25E11287E38BA6 /* Mobi_ads-dummy.m */,
-				E110E52E4A9BA7D7E4FC6E1C12821525 /* Mobi_ads-prefix.pch */,
-				45DF44098257C916CA14947323702B60 /* Mobi_ads.debug.xcconfig */,
-				103D82B019413D1E6AEC2C4933FD1578 /* Mobi_ads.release.xcconfig */,
+				103FB6B4A5261FFF28635AE257BA63D5 /* MobiPubSDK */,
+				BD79F335F8CBA53578DD85AE64E15D99 /* Headers */,
+			);
+			name = A;
+			path = A;
+			sourceTree = "<group>";
+		};
+		6725C99BAC805B84BF540DA1F5505B32 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				6441E6BEB2595262B0E990484B28719F /* Mobi_ads-dummy.m */,
+				045FE09B7922CD436D564E0712463A78 /* Mobi_ads-prefix.pch */,
+				5C4CFA011F3CA75394D1A4696B4F89CD /* Mobi_ads.debug.xcconfig */,
+				954D5911FCA02BC08A4D4A449100D039 /* Mobi_ads.release.xcconfig */,
 			);
 			name = "Support Files";
 			path = "Example/Pods/Target Support Files/Mobi_ads";
 			sourceTree = "<group>";
 		};
-		A289DBA3C9B53A3C73297E4DCED52FB3 /* Pod */ = {
+		846044370CA5119A0705A475543C80B2 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				CD1B2817BF583228DC59EE9AB4560BC7 /* LICENSE */,
-				DB2B76F63B4CA3EEE3FE775C7608888C /* Mobi_ads.podspec */,
-				CB037A0B6DD99F8FEC27738C9E9659B3 /* README.md */,
+				07975F8E68F897B512ADA7D9AB3DA1DB /* MobiPubSDK.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		89680A11542B73EBB4BC5519E9A093F4 /* Mobi_ads */ = {
+			isa = PBXGroup;
+			children = (
+				D45FA3D1FC0920204E8ED93E40C257F6 /* MobiPubSDK */,
+				846044370CA5119A0705A475543C80B2 /* Frameworks */,
+				B4C93A8AB645716BA22ACEB59F1DFC42 /* Pod */,
+				6725C99BAC805B84BF540DA1F5505B32 /* Support Files */,
+				AD1169D0D59481620632972E1FD1B509 /* Versions */,
+			);
+			name = Mobi_ads;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		AD1169D0D59481620632972E1FD1B509 /* Versions */ = {
+			isa = PBXGroup;
+			children = (
+				661C4F1A9AA7AD472DE51D958DCE922F /* A */,
+			);
+			name = Versions;
+			path = Mobiexchanger/Classes/MobiPubSDK.framework/Versions;
+			sourceTree = "<group>";
+		};
+		B4C93A8AB645716BA22ACEB59F1DFC42 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				5C44AA7598DE459C8D194A1043CECB6D /* LICENSE */,
+				0B5C579489BB02A3BA685F3B1B73B73A /* Mobi_ads.podspec */,
+				478198E0782F792123DFCD3A2B74C73D /* README.md */,
 			);
 			name = Pod;
 			sourceTree = "<group>";
@@ -82,9 +521,222 @@
 			isa = PBXGroup;
 			children = (
 				F4930DD9900848C6C327C02408A0D348 /* Frameworks */,
-				249DCEF86F78E4A06EFA3FD49918A78C /* Mobi_ads */,
+				89680A11542B73EBB4BC5519E9A093F4 /* Mobi_ads */,
 				633E110467C94F2993D0CB92A0687240 /* Products */,
 			);
+			sourceTree = "<group>";
+		};
+		BD79F335F8CBA53578DD85AE64E15D99 /* Headers */ = {
+			isa = PBXGroup;
+			children = (
+				DAEF131FC27144DCA46A62327D3FF926 /* FLAnimatedImage.h */,
+				F43C1B03A8125DC5FD98FCFC779A7D39 /* FLAnimatedImageView.h */,
+				6266970D78B0E47D64B0B7174E04E792 /* MobiAdBannerBaseClass.h */,
+				6CAC349C4AC60ABD35A222DBFF406010 /* MobiAdClickResolver.h */,
+				3F0FD1B3D866937445EF5FB1331B7994 /* MobiAdConfigServer.h */,
+				98629A5EB48856AEEBB19CB6A920871E /* MobiAdNativeBaseClass.h */,
+				760D815763ECA44B627895942511702F /* MobiAdNativeDlink.h */,
+				08C676AFC0E7E01B215298057A795CC6 /* MobiAdNativeImg.h */,
+				1E8B0C01F07E1BB1549C08BFDEE13006 /* MobiAdServerURLBuilder.h */,
+				1BCF9DB11B35A08ED1DADAF3F4C79E7F /* MobiAdTact.h */,
+				D0E7196F912A81CE68D9EE83B84FDA10 /* MobiAdTargeting.h */,
+				3BD32A4DD15D78FFF731F78319089D9A /* MobiAdVideoBaseClass.h */,
+				06B4CAF9EB9B2A2C7A91B67B266FE958 /* MobiAdVideoVideoAdm.h */,
+				2E802DA71161B3027C06CEFEA7F79ACE /* MobiAnalyticsTracker.h */,
+				40E7939D7CF54139D0A8CD534761E202 /* MobiAPIEndpoints.h */,
+				5E205183DC91B48CD8F3CE94CD37CA2D /* MobiConfig.h */,
+				5065297F9DA9CBE0FBAE616C4964BA28 /* MobiExperimentProvider.h */,
+				DE486BFC48D49BC6702374BF4FC34CAF /* MobiFeed.h */,
+				5BE6798029C7F67EB5B77090EB2E7B0F /* MobiFeedAdapter.h */,
+				7DFBE203A4B8E48AEA3AA75F0DD35002 /* MobiFeedAdManager.h */,
+				20F4902E2E1CC7D29A2DC8A1A9186E77 /* MobiFeedCustomEvent.h */,
+				10D792D52E54B8E8933BCF25022DBD7F /* MobiFeedError.h */,
+				02A749458456622EC32BA25495AF2E13 /* MobiFeedModel.h */,
+				170236F492B59FFB12AB30A56F8024EB /* MobiGlobal.h */,
+				BA2A9B6DF2D5466084B58C6183ADFE77 /* MobiHTTPNetworkSession.h */,
+				E484402BBA867A53C0525C665E94F0F4 /* MobiHTTPNetworkTaskData.h */,
+				FB195CCE9B5EB56978FB4E6FBEF9B81F /* MobiInterstitial.h */,
+				FB91682BF68274016224FC080EE70FF0 /* MobiInterstitialAdapter.h */,
+				EB593B35B90E584233775F0F248BF797 /* MobiInterstitialCustomEvent.h */,
+				F94523F6A486971EDCFD40C606DADE07 /* MobiInterstitialError.h */,
+				68D5C7FA3220A8B939D874478CE2B699 /* MobiInterstitialManager.h */,
+				CC6506E6943BB53CC5C9BF2E9BFB3C21 /* MobiInterstitialModel.h */,
+				812EE58D1742A60EFFC831FC56D71F2A /* MobiLaunchAd.h */,
+				071CA30D308D88088E9117CF229D7869 /* MobiLaunchAdButton.h */,
+				7668744C46EC10FDBF39ADE214040C62 /* MobiLaunchAdCache.h */,
+				F486C5107B675DCCE4762171808FC77E /* MobiLaunchAdConfiguration.h */,
+				22FD1DAF2F0173E39ED7F4ECAA8EBC24 /* MobiLaunchAdConst.h */,
+				5B4771187018AC969C084F6AC8845991 /* MobiLaunchAdDownloader.h */,
+				D08BE01BEA79309222CEECDB2AA3D99D /* MobiLaunchAdImageManager.h */,
+				D23B357FC303039E65A532942532382C /* MobiLaunchAdImageView.h */,
+				207778B6359AE7AEC053205381C2053C /* MobiLaunchAdWebViewController.h */,
+				F2C640FBB23AFEAE3880A8A51B29366A /* MobiLaunchImageView.h */,
+				7DDEBC6CA00F5EEC15A22AE8DD7B8ED3 /* MobiLogLevel.h */,
+				50087597217F7AF8F25F68C3F7C6CF58 /* MobiNativeExpressFeedView.h */,
+				1F01645003CA11025EB7E597557BC019 /* MobiPrivateFeedCustomEvent.h */,
+				69CEAB5523B138050DF3DB4F6225E094 /* MobiPrivateInterstitialCustomEvent.h */,
+				D19FC81BB1ED13B8D7C8B0B2A9701783 /* MobiPrivateRewardedVideoCustomEventDelegate.h */,
+				2FB5532DD1EC2C4D3F071FE9EC5815F8 /* MobiPrivateSplashCustomEvent.h */,
+				1C52E065A59E2C307832B6ABD9A7C468 /* MobiPrivateSplashCustomEventDelegate.h */,
+				D15E58661055CF307CCFE7D40431B5C4 /* MobiPub.h */,
+				3C64662212BCC00186D72FDE695826F8 /* MobiPub+Utility.h */,
+				B4D2A54BD54C7E6D25E560D3B9B8C00E /* MobiPubConfiguration.h */,
+				9B9AB351F102A5BEB7B4002C4572E3BD /* MobiPubDisplayAgentType.h */,
+				1B8E2CDEB05D49CC3EB8523443FBD4AD /* MobiRealTimeTimer.h */,
+				ECFB1A60F62A4F1D0BF26F3A597AEE6B /* MobiRewardedVideo.h */,
+				1941D945A86F957D7DD6F1BA005AD902 /* MobiRewardedVideoAdapter.h */,
+				8D942DCAF3D865677C1D37C908006571 /* MobiRewardedVideoAdManager.h */,
+				0C9EABEC70298E3E2F65A2D2D7D6FC25 /* MobiRewardedVideoCustomEvent.h */,
+				A80C9FFA94AC7CFA8EEFE02484BE026C /* MobiRewardedVideoError.h */,
+				D2CBA3B74EEDC52FE86548613C201D37 /* MobiRewardedVideoModel.h */,
+				1DBCF0B0FB5A594ADE917BDD5CDD6DE6 /* MobiRewardedVideoReward.h */,
+				48550F5C6D097613DBE5EE8CC92272E5 /* MobiSplash.h */,
+				AA017E86713638185BFEA5DAD057C948 /* MobiSplashAdapter.h */,
+				0393DBD7F08060E5E74F26F45CA28730 /* MobiSplashAdManager.h */,
+				89F94BFB13ADD813F3F1C135D3D611B3 /* MobiSplashCustomEvent.h */,
+				BBB23F59D564AA2F2F3FDA2D0E3853E0 /* MobiSplashError.h */,
+				F52AB1C47A9D36B21C16D35E9ABE01B5 /* MobiSplashModel.h */,
+				0A9AF456908F0CE5486CF3FBDFA31F56 /* MobiTimer.h */,
+				2E5AE332C45CB27002951A6545C85C3B /* MobiURL.h */,
+				334C536E55281E6C357AC5A03E377A6E /* MobiURLRequest.h */,
+				847AA178FEE76C1C02AB9FF57058EC8C /* MPActivityViewControllerHelper.h */,
+				E489E9420E4FE4C7C4028E9AD2115026 /* MPActivityViewControllerHelper+TweetShare.h */,
+				4BC7CBAA2E0FB87AAE7DFF56F1F0F593 /* MPAdDestinationDisplayAgent.h */,
+				1B4DEC7C72E11ACF82619CCA47E45B6D /* MPAdImpressionTimer.h */,
+				1442FAB60675327C80F2F2040EB34D1B /* MPAdServerKeys.h */,
+				61895FE675BC51A09303466C779A6C0E /* MPAdView.h */,
+				54730749AD661622F24D6C7F4A09BD4C /* MPAdViewDelegate.h */,
+				EDCE9D068CE34B4325A3C1D76144624B /* MPAdWebViewAgent.h */,
+				3D5B84047C337C1338AA4161EA81E2D9 /* MPATSSetting.h */,
+				F367C588B0764ADDD6943C38A5064844 /* MPBannerAdManager.h */,
+				E805E468D0633E82060027D45ACA5855 /* MPBannerAdManagerDelegate.h */,
+				DFD563A2B13A10BA65CA116D4F632E42 /* MPBannerCustomEvent.h */,
+				9F897DF47D3106FCBF3FD0A6E0FF0C96 /* MPBannerCustomEvent+Internal.h */,
+				2CB0A617AFC0053F0338247C8811F2EF /* MPBannerCustomEventAdapter.h */,
+				DF06AC68AEA6A797A3EA578BA15DB6DD /* MPBannerCustomEventDelegate.h */,
+				2CE99D76D39547548AF14BBC3A541405 /* MPBaseBannerAdapter.h */,
+				E0BEECA1C27336730F67DA79BF88DF5B /* MPBaseInterstitialAdapter.h */,
+				DA249E29F8C0D15844ECBC41515B1387 /* MPBLogger.h */,
+				EA3711A3C514AF81C074715AA2FD8509 /* MPBLogLevel.h */,
+				A7E664B180816D4D21CEA98E31B1A5D4 /* MPClosableView.h */,
+				DC5EBC6714C6F23F51522124DBD6AEDD /* MPConsentStatus.h */,
+				E4A5E6203F1F9505CE80A840AE79CEC5 /* MPConsoleLogger.h */,
+				DB5347E27625C6FEC2EA797B19B15B79 /* MPConstants.h */,
+				E0961861633E5C21FE4EB0267F6232E3 /* MPContentBlocker.h */,
+				94079EEA807093AD25B4665D1BA5885A /* MPCoreInstanceProvider.h */,
+				3F4916FC5BB2AD97AFEFA128B3F7C499 /* MPCoreInstanceProvider+MRAID.h */,
+				4E7ECDA8F0AC2B8A23EA98EF239EE215 /* MPCountdownTimerView.h */,
+				550031E429282BF96BD256C7344F248D /* MPDeviceInformation.h */,
+				91F5DD4DFCE739B107C100A8E44FB7B2 /* MPDiskLRUCache.h */,
+				CBB5E9684E5395E397F499AB30C033BC /* MPEngineInfo.h */,
+				4C105E06F62B25B6B1E1F53A0966E7AD /* MPEnhancedDeeplinkRequest.h */,
+				C76F9B02825234DDCFDFA28C7CC8165F /* MPError.h */,
+				E88DAA8C5EFAC68E6B943F002F444A3F /* MPExtendedHitBoxButton.h */,
+				60B20559C39217DC60D9FBEE65856DFB /* MPForceableOrientationProtocol.h */,
+				E4CF9B922F94EA5725F5B81A4F43850D /* MPHTMLBannerCustomEvent.h */,
+				F67705231484C0EA371158D08FC7D963 /* MPHTMLInterstitialCustomEvent.h */,
+				C4233C86C90B8C229762E0FA07A42036 /* MPHTMLInterstitialViewController.h */,
+				02BB5B746280CB47DA667DB3F005EB8D /* MPIdentityProvider.h */,
+				8BE4E0B3883DBD204A016C13C84407F3 /* MPImageDownloadQueue.h */,
+				CEDC97758E7AF982F3BC317A72E1746E /* MPImageLoader.h */,
+				69C328F9E3B54B9A76671092B9605436 /* MPImpressionData.h */,
+				D61384B5211F0FBD37D8E8C255374AA3 /* MPInterstitialAdController.h */,
+				FADC270ECCC52AE90A5CAC86E55A57F8 /* MPInterstitialAdControllerDelegate.h */,
+				C4402D94FF13438A71E0C9847C09931F /* MPInterstitialAdManager.h */,
+				A89F05ED6017DD9A38A2F64C3D523EC1 /* MPInterstitialAdManagerDelegate.h */,
+				78F648B6847DE391E59C3AA58D9651C0 /* MPInterstitialCustomEvent.h */,
+				D126ED12E7D5EB104FFBD46E4A5F2681 /* MPInterstitialCustomEventAdapter.h */,
+				427F988AA8A4294961E52FAC4920EC1F /* MPInterstitialCustomEventDelegate.h */,
+				52024755131EEB76A21A22AB13A2034F /* MPInterstitialViewController.h */,
+				14B314807EDAF666E5F701A626AA4F2A /* MPLastResortDelegate.h */,
+				9DBAF28110B3482D4649BABCBB23B752 /* MPLogEvent.h */,
+				AC66E251BAD7A747B624E1B1E2E43005 /* MPLogging.h */,
+				6F9B0F609986F14836037577D0603C76 /* MPLogManager.h */,
+				3E6D3DF7E26122C3D635223DA9FE3DB0 /* MPMediaFileCache.h */,
+				2CE8F7928C34DC54D8BB376604B44F90 /* MPMemoryCache.h */,
+				D9632647289B4D574E646BC190E90338 /* MPMRAIDBannerCustomEvent.h */,
+				2D3B4F6FE481D1ABBD30BED85054932D /* MPMRAIDInterstitialCustomEvent.h */,
+				2282A5879920AD489AC75B0A0BE64466 /* MPMRAIDInterstitialViewController.h */,
+				6841E3A376E7262F14C338CD4D2188B9 /* MPNativeAdError.h */,
+				F1B7F858D7593E12C15C76FCD62B030E /* MPNativeCache.h */,
+				625C1404D4D6995193D5CEEB1CCBD3FA /* MPNetworkStatus.h */,
+				07AAEFBF268A2D836C41DA5AB196267F /* MPPrivateBannerCustomEventDelegate.h */,
+				57D7C882900052C917FAA42C11E74A4E /* MPPrivateInterstitialCustomEventDelegate.h */,
+				93CB7076D67172CE1F6668F9017D257E /* MPProgressOverlayView.h */,
+				C38CAD237C9097DA7A4DF4DAC0ACE7C2 /* MPReachability.h */,
+				BDA71FC851489BE4D61E7DAF0D9F05B4 /* MPReachabilityManager.h */,
+				0DE7084A42C4F2106749FC5DD119F1B5 /* MPStopwatch.h */,
+				459922CB66D982E5489DDC17BC35B390 /* MPURLActionInfo.h */,
+				E51D9EFE21620712F2D02EF9266B21E9 /* MPURLResolver.h */,
+				E124B3102212C245A75F546A277B55AF /* MPUserInteractionGestureRecognizer.h */,
+				95D1790F787DA2A6A64B019B3CB80AC0 /* MPVASTAd.h */,
+				83E898FE850A20C2DC58CC41831CB323 /* MPVASTCompanionAd.h */,
+				4543DD5702D28A6AB0CC8B72168F379F /* MPVASTCompanionAdView.h */,
+				067E09CC8DA25121BE3A5F04BD1D569E /* MPVASTConstant.h */,
+				30044D180797EA9A8F703784147155D7 /* MPVASTCreative.h */,
+				8DD773F9E04DF53987B014140F94EC2E /* MPVASTDurationOffset.h */,
+				1DC1678212B4F76C58EEF2F6B6EC61D0 /* MPVASTError.h */,
+				F47F7CDE05E34B92F26ADC7A51222415 /* MPVASTIndustryIcon.h */,
+				7113001CE51FEBAB48F1C323CC5CA6A7 /* MPVASTIndustryIconView.h */,
+				7F211E369016164F83BCF8432F985591 /* MPVASTInline.h */,
+				D5201C3D264B3B383AFDD7CF82D36AFE /* MPVASTInterstitialCustomEvent.h */,
+				38B0BE9EBF74CA3DCFC43D434FB3E7D2 /* MPVASTLinearAd.h */,
+				0D145AFA81FA9F5472181DF65DA27AA8 /* MPVASTMacroProcessor.h */,
+				82217DCFBE0C664BFEACD544319F0C8D /* MPVASTManager.h */,
+				32E49E18D4EAF98403C0B9B8D9FFC08C /* MPVASTMediaFile.h */,
+				7D1953FFF3872F70E92A01F98B0B3627 /* MPVASTModel.h */,
+				26982A02A89D56B1FC318881378F182F /* MPVASTResource.h */,
+				A0AB45FE7D5365C8166E186087D8F009 /* MPVASTResourceView.h */,
+				2E881AF55A1C424682686BEBEC9ECA43 /* MPVASTResponse.h */,
+				FD063CE6FCD81E6FF1B01F3E77FA5325 /* MPVASTStringUtilities.h */,
+				204D31B35D228D424BD2251AA081107D /* MPVASTTracking.h */,
+				F4816ED2E4B85BF24842A241476BF220 /* MPVASTTrackingEvent.h */,
+				2BFC30808DDF31634875F190AABC7765 /* MPVASTWrapper.h */,
+				4CD9BF449E87EE59A39A12A5430A59CA /* MPVideoConfig.h */,
+				53E7D346CA776248BC749C7412091E6C /* MPVideoEvent.h */,
+				AE08A7C9B426391991261770060447AF /* MPVideoPlayer.h */,
+				0319F8D6E4DB6AA2B3EF6576CC647113 /* MPVideoPlayerContainerView.h */,
+				BA6E9A8FC40D9DEFF6337EE8CF898F0E /* MPVideoPlayerFullScreenVASTAdOverlay.h */,
+				78F3A286EC24CFA523E8631882DD6D13 /* MPVideoPlayerView.h */,
+				CC43277C853049C1F5F784273CBD916E /* MPVideoPlayerViewController.h */,
+				F0597B7F680BBCC093B6C67344E3A55C /* MPVideoPlayerViewOverlay.h */,
+				73794077E25956F25AB1B88AB9BBDA6B /* MPViewabilityAdapter.h */,
+				F5C807CC337545BDE746699DA1BBFD37 /* MPViewabilityOption.h */,
+				486CB59385176B26DFD057B7F8209609 /* MPViewabilityTracker.h */,
+				BD83C9E77952A0D058E0D04F17BE6DC4 /* MPWebBrowserUserAgentInfo.h */,
+				5CBC568BB440E491BBF2A320AA95CBBE /* MPWebView.h */,
+				2666B1052CAE1029199D16660635C12F /* MPWebView+Viewability.h */,
+				0A86AF6EC475255F721A168753004665 /* MPXMLParser.h */,
+				2AF2762AF70AAC350A3FF02DABBF35D0 /* MRBridge.h */,
+				03D37F9C4AEACFB4BEBE1C79C9FBFCB8 /* MRBundleManager.h */,
+				A6856448A236B4E28822365E628934EB /* MRCommand.h */,
+				9D29B8CA70034C0AE0EEFF8C1489619C /* MRConstants.h */,
+				E8BEE58D8A02961A81B1A872FF449D8F /* MRController.h */,
+				96536D6ED797E13AD9C7772594FF3FA6 /* MRError.h */,
+				3B63DDFAE14E0C58E9FDF0F69B565C44 /* MRExpandModalViewController.h */,
+				39F0BA9B9C77D5FFB55F970324E686EB /* MRNativeCommandHandler.h */,
+				1A57A147A6E7FA4DCC5DA4F7B483F809 /* MRProperty.h */,
+				E09BABA76F7F38570F589F68DA5B0286 /* MRVideoPlayerManager.h */,
+				EBB282CA6E307E86E6167B198A737DA2 /* NSBundle+Library.h */,
+				4B37B572BD74621EBD379A7368F8AF85 /* NSBundle+MPAdditions.h */,
+				B0D07ACB550F0F76E36C8C57236CC16A /* NSDate+MPAdditions.h */,
+				ED94A0CABBF2D7DF6B7DB39977E19BB0 /* NSDictionary+MPAdditions.h */,
+				51000582319B20614B8E4D5B8218CFB2 /* NSError+MPAdditions.h */,
+				CBBDD7533A15166A14B4FFD92E2FDC11 /* NSHTTPURLResponse+MPAdditions.h */,
+				26BBF8FBCE09BA75F6B13811E52F1E4A /* NSJSONSerialization+MPAdditions.h */,
+				2077F740F531C94526AEFFD8826A1FD7 /* NSMutableArray+MPAdditions.h */,
+				B2E8D69C026355DAAC0D7158882CAD1C /* NSString+MPAdditions.h */,
+				C3EF619AA978B7249DA77F0B062B0FE3 /* NSString+MPConsentStatus.h */,
+				35080DB0B1E1F8562A68639165B753AB /* NSURL+MPAdditions.h */,
+				38DF599386600D91A01631F8F0DFD52F /* SKStoreProductViewController+MPAdditions.h */,
+				EF7430F60DA4313F3DB56D80277E7B43 /* UIButton+MPAdditions.h */,
+				DE92348FDFBD72BA2EAA09FAAC6B1F17 /* UIColor+MPAdditions.h */,
+				10040EC90CE9C7D3B952C8C4FBFAB43D /* UIImage+Library.h */,
+				12FC8462FC753500EF7ADC005A854794 /* UIView+MPAdditions.h */,
+				64C91E5F95C16B61B79A8257233491A9 /* UIViewController+MobiNav.h */,
+			);
+			name = Headers;
+			path = Headers;
 			sourceTree = "<group>";
 		};
 		F4930DD9900848C6C327C02408A0D348 /* Frameworks */ = {
@@ -97,11 +749,215 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		CF881C58D1CA2F9E7232E7F263FC0881 /* Headers */ = {
+		2AE11C84533A05141263F2EF0AA11010 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3B57A5EF66D3A89FC01B5B30C5CA6E76 /* Helloaaaa.h in Headers */,
+				83DAA353A7B5BD5DF6371978B2931DAC /* FLAnimatedImage.h in Headers */,
+				960C55238008809740E4A1705A3A6335 /* FLAnimatedImageView.h in Headers */,
+				4E0F011CC2CBEBFB3F9E0D8C169D0D77 /* MobiAdBannerBaseClass.h in Headers */,
+				3A6D2B6C4A963A3A47CE7ACAEC9D9C48 /* MobiAdClickResolver.h in Headers */,
+				906C0B8D714CE22D1AAD1292EE4E20E7 /* MobiAdConfigServer.h in Headers */,
+				2232E1D76273A4D3CBAA3A17DE782ACF /* MobiAdNativeBaseClass.h in Headers */,
+				FA97DA71644E7EA8629702570913D5A9 /* MobiAdNativeDlink.h in Headers */,
+				17F3267FC9764B2F25644C0F282D332C /* MobiAdNativeImg.h in Headers */,
+				FD32A157CDED8D238B32E19706448C47 /* MobiAdServerURLBuilder.h in Headers */,
+				D03B82BAD511E0E03AA52BC181122CBE /* MobiAdTact.h in Headers */,
+				86C5A592FFC2F52A926C4DD8E7BB26CF /* MobiAdTargeting.h in Headers */,
+				0FD6C8BE19D9778F3CE2B9B001FFC401 /* MobiAdVideoBaseClass.h in Headers */,
+				4AD70D00C006B56C11A0AAEF06438CCE /* MobiAdVideoVideoAdm.h in Headers */,
+				B613B308D1CAA454803BF749AF195829 /* MobiAnalyticsTracker.h in Headers */,
+				84B44E24E0FE218BE2B1BDD85C45DCD7 /* MobiAPIEndpoints.h in Headers */,
+				C5DBDDB0203E736CAF60B53CA7B93389 /* MobiConfig.h in Headers */,
+				24FE450591DC77501579A5F8D09130B1 /* MobiExperimentProvider.h in Headers */,
+				90087C1D72B1B71F256960035CE8A74E /* MobiFeed.h in Headers */,
+				52A637653C94BAF0F4DF4029D68870D0 /* MobiFeedAdapter.h in Headers */,
+				C766937958D130F135EAEFB2281878D3 /* MobiFeedAdManager.h in Headers */,
+				5B289FD4EB059C69D2A4A61B4DFEB704 /* MobiFeedCustomEvent.h in Headers */,
+				A0DCA7303F622032A577187536D105CB /* MobiFeedError.h in Headers */,
+				EF8D8C699B4728558FBDBEB0AAAFC6AB /* MobiFeedModel.h in Headers */,
+				75D7E3AD840275E3EC65AD53294457A6 /* MobiGlobal.h in Headers */,
+				1DCB2BB069800E95CB88788114113599 /* MobiHTTPNetworkSession.h in Headers */,
+				0AAD49A59759FC7602580559DCCE36A5 /* MobiHTTPNetworkTaskData.h in Headers */,
+				0E77BEF90E7FD696B87DB34383162248 /* MobiInterstitial.h in Headers */,
+				4EFC52CBD809677F8E96CE05434B1E26 /* MobiInterstitialAdapter.h in Headers */,
+				26F3DD850F3983C072262F7AF1336447 /* MobiInterstitialCustomEvent.h in Headers */,
+				AB7C4789F972572802C641545C55AC4F /* MobiInterstitialError.h in Headers */,
+				DD014086F9FE2832D89CCCE155B0CEE2 /* MobiInterstitialManager.h in Headers */,
+				1447424D07ED42FD90B9A908C3C2D551 /* MobiInterstitialModel.h in Headers */,
+				4535923A47CF61BE02A614C89A7378DE /* MobiLaunchAd.h in Headers */,
+				7C5307D56FBFA13551D4AABF36665CCB /* MobiLaunchAdButton.h in Headers */,
+				152CE745C2DA669A21FBC171F90885BB /* MobiLaunchAdCache.h in Headers */,
+				870F05B2AA5829A7040EBE5775DE8B7F /* MobiLaunchAdConfiguration.h in Headers */,
+				3187BE5065E6879956D2AA7E5FA65314 /* MobiLaunchAdConst.h in Headers */,
+				9F13B32C173DDDDB010E986F5D788FD2 /* MobiLaunchAdDownloader.h in Headers */,
+				96A012185DBA5DF50C910976B35AF62F /* MobiLaunchAdImageManager.h in Headers */,
+				E6FD8FEDE3E0D9C7B8874BDD78BB3EF2 /* MobiLaunchAdImageView.h in Headers */,
+				186A08147E3B6A7B1B4C7BD619D65B9C /* MobiLaunchAdWebViewController.h in Headers */,
+				92910299D5F25512D22F65E793DFC226 /* MobiLaunchImageView.h in Headers */,
+				C18D108203E7A9B3D0BB34E2B07E2B54 /* MobiLogLevel.h in Headers */,
+				2D8ECCBC0A795B9E306173B042B9ABF9 /* MobiNativeExpressFeedView.h in Headers */,
+				8D1816B6C6C0723ECF3E5EF8D7C2E5EE /* MobiPrivateFeedCustomEvent.h in Headers */,
+				967A073057659E6824918E142E6E5238 /* MobiPrivateInterstitialCustomEvent.h in Headers */,
+				A2F247E17243AF23673A71D17915A25D /* MobiPrivateRewardedVideoCustomEventDelegate.h in Headers */,
+				781C1A067B920B5204185E178E305848 /* MobiPrivateSplashCustomEvent.h in Headers */,
+				849CC306E86125ADB59C7438A864947D /* MobiPrivateSplashCustomEventDelegate.h in Headers */,
+				32C0727493DAC98CEBC5D9B094C85B97 /* MobiPub+Utility.h in Headers */,
+				50CA3F42406B03EB82D5C3CD538ED79E /* MobiPub.h in Headers */,
+				73F1538D53DBB5E849671CF57CEE1F8F /* MobiPubConfiguration.h in Headers */,
+				B370CCC69B6B0272C327D247C0B101EA /* MobiPubDisplayAgentType.h in Headers */,
+				35EE84F520165CF1325398C0A0ED9B81 /* MobiRealTimeTimer.h in Headers */,
+				387C828CE1A4118E7EAF1EBEA703FBA5 /* MobiRewardedVideo.h in Headers */,
+				EEA1273FED51CD590351CE25AB3A0353 /* MobiRewardedVideoAdapter.h in Headers */,
+				D3C6D24B0D563E5B86E9728B9BD60A0F /* MobiRewardedVideoAdManager.h in Headers */,
+				96C7CFF47EAAF1CADC714EC244D1DCEC /* MobiRewardedVideoCustomEvent.h in Headers */,
+				1B945F4D09B5C9B3FF42B79860DBE01C /* MobiRewardedVideoError.h in Headers */,
+				77EFC38293853DE435EDA628D7661F64 /* MobiRewardedVideoModel.h in Headers */,
+				0BF5203C15AE7C5F597F01F9C41E7DA9 /* MobiRewardedVideoReward.h in Headers */,
+				3CF458CC12E3AF3F21E64482E0CC7813 /* MobiSplash.h in Headers */,
+				F74A1E9ED56E7439D62A8F4DE0392E54 /* MobiSplashAdapter.h in Headers */,
+				DD065C295EEF4AB32B25F3E06E1CA7EE /* MobiSplashAdManager.h in Headers */,
+				16A29546E993179D09D8EEF8E3A15736 /* MobiSplashCustomEvent.h in Headers */,
+				46AA6339F8BCF7A7A4A58B4D6CD67BD3 /* MobiSplashError.h in Headers */,
+				EEDBA60CE8D323B1D48CC421F7000EF5 /* MobiSplashModel.h in Headers */,
+				13097EE2A436132D382A7395EADCED7B /* MobiTimer.h in Headers */,
+				2FA37087459586450CEE1F6F0EF155A0 /* MobiURL.h in Headers */,
+				7AB4A20C5FF474E1AB97212C40E076B5 /* MobiURLRequest.h in Headers */,
+				FD9FE97F4C460CF217D022E7DEDE8EF1 /* MPActivityViewControllerHelper+TweetShare.h in Headers */,
+				B4F1800C990C05D3C3FE6CC90371E678 /* MPActivityViewControllerHelper.h in Headers */,
+				8CC5CB547D01352F384351FB3A542AFD /* MPAdDestinationDisplayAgent.h in Headers */,
+				BD498E39D266440A0C772BF78F0D5C0E /* MPAdImpressionTimer.h in Headers */,
+				8C997DDD2CCD4EE1C6484DC927E23B4A /* MPAdServerKeys.h in Headers */,
+				759C3EB2949BECC6133534D4B5B8A0FC /* MPAdView.h in Headers */,
+				99E3714578B00C5B5E40CE5D7073D427 /* MPAdViewDelegate.h in Headers */,
+				32249B7C84C6F165BA41D6AD1D822FBD /* MPAdWebViewAgent.h in Headers */,
+				70F6E054C43EC0D1429FD6D5BCDC898C /* MPATSSetting.h in Headers */,
+				212BE3A21E4057A06F253DA30856555C /* MPBannerAdManager.h in Headers */,
+				07F16D2C46A5BCEC7297D2B9F3DD682B /* MPBannerAdManagerDelegate.h in Headers */,
+				9B6AA4E3042CC617DE58D90744E4C97D /* MPBannerCustomEvent+Internal.h in Headers */,
+				CE54F71E8E57AC6EFC18D7B52D540C73 /* MPBannerCustomEvent.h in Headers */,
+				88E30C702B36FC55471DFAF789445CAA /* MPBannerCustomEventAdapter.h in Headers */,
+				68DFA2CBA602B85BCC807677D9A7E656 /* MPBannerCustomEventDelegate.h in Headers */,
+				C414BCD932E09E61FAB8668B826AF8D3 /* MPBaseBannerAdapter.h in Headers */,
+				98862AF63E0ECA40A53D6A0D6356F61A /* MPBaseInterstitialAdapter.h in Headers */,
+				D58979F81EC164A316C64A6EC1DB8881 /* MPBLogger.h in Headers */,
+				8F1A4F947FEA420224AACC413A7AD9E2 /* MPBLogLevel.h in Headers */,
+				F5481D80E30DD9D8B827AB2AE63A259D /* MPClosableView.h in Headers */,
+				AC7832F03B989F6A8FEBAE52DF0C0FB7 /* MPConsentStatus.h in Headers */,
+				78F64D93BD12F35A68CD9ECCD3518A4C /* MPConsoleLogger.h in Headers */,
+				5CEE05CB58B05A235A27F3B93F20D68F /* MPConstants.h in Headers */,
+				E679B0553DD22FFB03EB03C61CFA55E3 /* MPContentBlocker.h in Headers */,
+				A143C81BCC3AF8A9AD6D5B3EC6DE46B7 /* MPCoreInstanceProvider+MRAID.h in Headers */,
+				1EAA3AC7DA3691136C012BAB5113ECF1 /* MPCoreInstanceProvider.h in Headers */,
+				94C08418BAB1B19435A3978D67AEFDEA /* MPCountdownTimerView.h in Headers */,
+				9486F5E9F8DFA982BAE882A78D19B654 /* MPDeviceInformation.h in Headers */,
+				89566E3FB8B1F78FD54A0EE3DBEF0502 /* MPDiskLRUCache.h in Headers */,
+				6019C65E6BB9DDA1911E2AECD236B4E2 /* MPEngineInfo.h in Headers */,
+				F0E1EBAE4AF35D4F2E3FA455D9DBF320 /* MPEnhancedDeeplinkRequest.h in Headers */,
+				398D15542B70D36C80AA55618A049EB0 /* MPError.h in Headers */,
+				5597543C8B173C8DA91D88811A30D090 /* MPExtendedHitBoxButton.h in Headers */,
+				95BA75885E6CA907FD670F2ACB5A8BCF /* MPForceableOrientationProtocol.h in Headers */,
+				0DE641210ADD46D4764AB132CF4C51F8 /* MPHTMLBannerCustomEvent.h in Headers */,
+				2F73DB43006A001A5194B61EBABC1D45 /* MPHTMLInterstitialCustomEvent.h in Headers */,
+				96448025EB4A4A9B2556C6545017982E /* MPHTMLInterstitialViewController.h in Headers */,
+				6B8D8DC1E750403419004CFD6EA3A38A /* MPIdentityProvider.h in Headers */,
+				D904B1BF3ACD870DB85A0AEE79BD7432 /* MPImageDownloadQueue.h in Headers */,
+				100B4B448B32096AB10D8979CF51F76C /* MPImageLoader.h in Headers */,
+				76A97FE7F8C164F6F854DE5E3E752D57 /* MPImpressionData.h in Headers */,
+				7000768417BE9A68524D738885C39429 /* MPInterstitialAdController.h in Headers */,
+				E7BD6F0AC9831373631A5EEEDAF5D82F /* MPInterstitialAdControllerDelegate.h in Headers */,
+				A1DF96FA1C2EF8A65981258EDFB1247F /* MPInterstitialAdManager.h in Headers */,
+				7AEB71B49CD390CAC8FF03BFB8386527 /* MPInterstitialAdManagerDelegate.h in Headers */,
+				FAE8114C67CB495BC437B010ACCFE077 /* MPInterstitialCustomEvent.h in Headers */,
+				3C339D22C5B97A20464DA1F5A5D3549E /* MPInterstitialCustomEventAdapter.h in Headers */,
+				D719558710ED8BE80EFF47F1EA51D1BD /* MPInterstitialCustomEventDelegate.h in Headers */,
+				8E9C57795D10714F595480015DABA78D /* MPInterstitialViewController.h in Headers */,
+				D5F7DA21C4AB3E908D8555A734974A49 /* MPLastResortDelegate.h in Headers */,
+				EC14C0F3C500716F95E9DE1274726EBA /* MPLogEvent.h in Headers */,
+				43A1B7A6274A63FD7A2048B6FCA77EEA /* MPLogging.h in Headers */,
+				F0D39D970236819DC52642F1FC71698D /* MPLogManager.h in Headers */,
+				CDD398A11E90DCBDBE6BBD87C5DD918F /* MPMediaFileCache.h in Headers */,
+				888A6C90C7D7239D97017AE9DB6F81C2 /* MPMemoryCache.h in Headers */,
+				313E72826AAE4FECB4E71D8A9C01E0EF /* MPMRAIDBannerCustomEvent.h in Headers */,
+				D45B35BEBFC05C9C6924FA7A52D538C9 /* MPMRAIDInterstitialCustomEvent.h in Headers */,
+				E0BCA4C139BF860D9FB4D558132211E1 /* MPMRAIDInterstitialViewController.h in Headers */,
+				B3964F7A8636088D2E3144C30E6A5359 /* MPNativeAdError.h in Headers */,
+				B1A2F9E5527648185E2F20269EF58F56 /* MPNativeCache.h in Headers */,
+				F24A3E499457CC96431F61B14AAA0885 /* MPNetworkStatus.h in Headers */,
+				10F888E1351BD2CE4BB7C47656809D9B /* MPPrivateBannerCustomEventDelegate.h in Headers */,
+				627EA4C33FBEED980A625B8953C7E518 /* MPPrivateInterstitialCustomEventDelegate.h in Headers */,
+				26FC740E3C0253EE16CADBBE1DDB42FB /* MPProgressOverlayView.h in Headers */,
+				7EC28AF9F7BD764D87B0000F957B90D2 /* MPReachability.h in Headers */,
+				1F39CDC7C8BAB466843988C774D4EE30 /* MPReachabilityManager.h in Headers */,
+				01162E6C889C5756460CC346534FF86E /* MPStopwatch.h in Headers */,
+				33F44475461BF785E4A1DD41E74235C5 /* MPURLActionInfo.h in Headers */,
+				EDB0725C9B7DA93B6867C2524C2E72E5 /* MPURLResolver.h in Headers */,
+				9EA3A252A24B8A7C3343B586B96F1566 /* MPUserInteractionGestureRecognizer.h in Headers */,
+				062523001147093DF090C48B410DE97A /* MPVASTAd.h in Headers */,
+				BB2C8D9A9B429FDBFF8B65C69E6E53AC /* MPVASTCompanionAd.h in Headers */,
+				19BA85713B8932EFE17C4168F65102FC /* MPVASTCompanionAdView.h in Headers */,
+				69B2766CE28A24D04BE4C13BE5EA9DBB /* MPVASTConstant.h in Headers */,
+				092694E0CA2D5EB9B108E3077041148D /* MPVASTCreative.h in Headers */,
+				8D9B5B663F5980CCCF5F1DD3DE2C022C /* MPVASTDurationOffset.h in Headers */,
+				5CC7300E1BAEFD422612A1741636C43D /* MPVASTError.h in Headers */,
+				2165BFF3F7B0A96C023E71C3816ADDB7 /* MPVASTIndustryIcon.h in Headers */,
+				956DB93E85423634F296601F4517E673 /* MPVASTIndustryIconView.h in Headers */,
+				C4E5DA5B62D9923366D0536C4E745D90 /* MPVASTInline.h in Headers */,
+				99FF550A956AFAB3D4C0098C3EF0C4AC /* MPVASTInterstitialCustomEvent.h in Headers */,
+				FE7E38EFD5D412234B65C4AC6E074DCC /* MPVASTLinearAd.h in Headers */,
+				8B8729A63D8B8651CAE2288E976420C7 /* MPVASTMacroProcessor.h in Headers */,
+				2F34206A16A16789FDA9E4F921326369 /* MPVASTManager.h in Headers */,
+				03D20ED2EC5DCF2B37EC8D5A351858B0 /* MPVASTMediaFile.h in Headers */,
+				C66871CE7F1806FC38D9D76CE86E1A5A /* MPVASTModel.h in Headers */,
+				7C162AEF70A8194503544158001B05F1 /* MPVASTResource.h in Headers */,
+				6618F3CA2BD915EB019D110594E5202B /* MPVASTResourceView.h in Headers */,
+				E81EB230E73781BF2FE9C201CBA40CCB /* MPVASTResponse.h in Headers */,
+				E4A21D89DC57FC7DAFEBFA7AB0771203 /* MPVASTStringUtilities.h in Headers */,
+				083FED88CCA9742BC12F304D4F784F0B /* MPVASTTracking.h in Headers */,
+				2CFC6F8641595E013D6EF8F07DD94D8D /* MPVASTTrackingEvent.h in Headers */,
+				E4AA84825A6568C297E6853348AFEB7E /* MPVASTWrapper.h in Headers */,
+				A475690E708377748BE88AF533DD90BA /* MPVideoConfig.h in Headers */,
+				2FF6139B218F6D5647238D51B6A5DDEB /* MPVideoEvent.h in Headers */,
+				CA0ED0779287DE8A303DBD0115E3762C /* MPVideoPlayer.h in Headers */,
+				C3FC0F2197B41EBB13DC2C0DEBFB6361 /* MPVideoPlayerContainerView.h in Headers */,
+				8E91F096714F8F5868AE9B40937214A4 /* MPVideoPlayerFullScreenVASTAdOverlay.h in Headers */,
+				AE442AC9DC2C0869B96EE73FFCA5E547 /* MPVideoPlayerView.h in Headers */,
+				AA7900081C77C9A5D5AE8F01DA17F75B /* MPVideoPlayerViewController.h in Headers */,
+				D26E3B9618411C9ADA6FE2B07D866BE4 /* MPVideoPlayerViewOverlay.h in Headers */,
+				A2D7609D0BFA2730F8D61D8CD5DF4871 /* MPViewabilityAdapter.h in Headers */,
+				ABCBDE19F3029ECFAB7183EDCFC7F663 /* MPViewabilityOption.h in Headers */,
+				46745FBF06CB273857D9058A24EC55CD /* MPViewabilityTracker.h in Headers */,
+				72E4EB0AEAFD757A48EA697B9BFF9CF1 /* MPWebBrowserUserAgentInfo.h in Headers */,
+				EEECB9513384586888B5FC6C917D6B81 /* MPWebView+Viewability.h in Headers */,
+				F62FD6C696CC00245EF61F208D2AAB30 /* MPWebView.h in Headers */,
+				73DC6CC4A5B3208A44B810E5B406FDA9 /* MPXMLParser.h in Headers */,
+				567A2D3E6B2B7A8C7F775E6715838BFE /* MRBridge.h in Headers */,
+				FE7B8E780DF30EC9D0E231F8F67D9788 /* MRBundleManager.h in Headers */,
+				8BA35559A2371E74E8E16727BE23FD6C /* MRCommand.h in Headers */,
+				06A7C6F12B24570A93F9E44028E45F17 /* MRConstants.h in Headers */,
+				8F36CE5B8D679EE189A042F1AEDC5AAB /* MRController.h in Headers */,
+				309F71221A97017161B92A79C8988F57 /* MRError.h in Headers */,
+				177605B78AAAF233E03C5716C38A20A5 /* MRExpandModalViewController.h in Headers */,
+				AD6C94BB4352B5CEA6B445ADD1A70008 /* MRNativeCommandHandler.h in Headers */,
+				6EF7902255A4994A4A8DC9F24E2129DB /* MRProperty.h in Headers */,
+				3F5DEABE36D774AB72D2DBFE08D8A052 /* MRVideoPlayerManager.h in Headers */,
+				3AE28520EA40888E849CD24FD802D9CD /* NSBundle+Library.h in Headers */,
+				8234069988B86C542808AEE269489F95 /* NSBundle+MPAdditions.h in Headers */,
+				CA0D9BDCC65BC3B84BF60619CC08D332 /* NSDate+MPAdditions.h in Headers */,
+				199A1F05DAD9444E13609A1444F41EF5 /* NSDictionary+MPAdditions.h in Headers */,
+				2C82DA0DCF6397EE37D8C070C8BF88DF /* NSError+MPAdditions.h in Headers */,
+				9656FA1B056AB1322829DF63ED6CBB3F /* NSHTTPURLResponse+MPAdditions.h in Headers */,
+				DC45ED23F2B47EDCDB45DF0DB02E6205 /* NSJSONSerialization+MPAdditions.h in Headers */,
+				2FAA50F09ED23B61E2106DC2030306D9 /* NSMutableArray+MPAdditions.h in Headers */,
+				DCCF7CC6EF9D1F73E49E230C1AF9B0CC /* NSString+MPAdditions.h in Headers */,
+				D0FA87DF850BADC6742B73B0D8DAD251 /* NSString+MPConsentStatus.h in Headers */,
+				BBC9246CDF9767640C51288607B24B18 /* NSURL+MPAdditions.h in Headers */,
+				E8B3C1B34D84EDFBCF0EFD75B1CFA0C7 /* SKStoreProductViewController+MPAdditions.h in Headers */,
+				88667BA9C29EF6341934CDA39569B364 /* UIButton+MPAdditions.h in Headers */,
+				FE82E7424AFDED332A2D241D3E494CFD /* UIColor+MPAdditions.h in Headers */,
+				80E5937E79487354B50865A9AC48D72C /* UIImage+Library.h in Headers */,
+				908F8141E7E7B71DBAAF3227CAE251BE /* UIView+MPAdditions.h in Headers */,
+				197091559675808DF1087EADB93A991C /* UIViewController+MobiNav.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -110,11 +966,11 @@
 /* Begin PBXNativeTarget section */
 		7B96A0C651A78780564232C9FED39BD9 /* Mobi_ads */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = B43ED8615F94F7C64F5B248C5FD89424 /* Build configuration list for PBXNativeTarget "Mobi_ads" */;
+			buildConfigurationList = 4B1517B0FA2C9685485DC51ED5840B56 /* Build configuration list for PBXNativeTarget "Mobi_ads" */;
 			buildPhases = (
-				CF881C58D1CA2F9E7232E7F263FC0881 /* Headers */,
-				FA646AE23BCE9560B799BBECC68C361C /* Sources */,
-				DBA37905EC8032BFCF69F13C32FF6B1A /* Frameworks */,
+				2AE11C84533A05141263F2EF0AA11010 /* Headers */,
+				B5A3766F3615583131A1295C5FE091B9 /* Sources */,
+				9BC6B8C96871E1BAEA8F800127315C4F /* Frameworks */,
 			);
 			buildRules = (
 			);
@@ -153,18 +1009,43 @@
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		FA646AE23BCE9560B799BBECC68C361C /* Sources */ = {
+		B5A3766F3615583131A1295C5FE091B9 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4BCC63EDC181B0A7BDE1B954E1FC15D9 /* Helloaaaa.m in Sources */,
-				CD329D58A8ACF4804E8388816327B71E /* Mobi_ads-dummy.m in Sources */,
+				CDAFD2567E30EC9961C6DF381D54D479 /* Mobi_ads-dummy.m in Sources */,
+				6D80CB05C5A108640F0147E270A24AFF /* MobiPubSDK in Sources */,
+				8612DC238F7A933D8C7F3A87F645D061 /* MobiPubSDK in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
+		135E1AED720B1B08C968398AC417B3F7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 954D5911FCA02BC08A4D4A449100D039 /* Mobi_ads.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/Mobi_ads/Mobi_ads-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = Mobi_ads;
+				PRODUCT_NAME = Mobi_ads;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
 		5C69B2F6892D84E816B262412463E1FE /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -225,9 +1106,9 @@
 			};
 			name = Release;
 		};
-		AF26751F9A4F326B6D30E35C11896DB7 /* Debug */ = {
+		8ED77372A86CEAB531BD67C75B991331 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 45DF44098257C916CA14947323702B60 /* Mobi_ads.debug.xcconfig */;
+			baseConfigurationReference = 5C4CFA011F3CA75394D1A4696B4F89CD /* Mobi_ads.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -312,30 +1193,6 @@
 			};
 			name = Debug;
 		};
-		E790DDF50AE1E0D37DC1422D129F744A /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 103D82B019413D1E6AEC2C4933FD1578 /* Mobi_ads.release.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				GCC_PREFIX_HEADER = "Target Support Files/Mobi_ads/Mobi_ads-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				OTHER_LIBTOOLFLAGS = "";
-				PRIVATE_HEADERS_FOLDER_PATH = "";
-				PRODUCT_MODULE_NAME = Mobi_ads;
-				PRODUCT_NAME = Mobi_ads;
-				PUBLIC_HEADERS_FOLDER_PATH = "";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -348,11 +1205,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		B43ED8615F94F7C64F5B248C5FD89424 /* Build configuration list for PBXNativeTarget "Mobi_ads" */ = {
+		4B1517B0FA2C9685485DC51ED5840B56 /* Build configuration list for PBXNativeTarget "Mobi_ads" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				AF26751F9A4F326B6D30E35C11896DB7 /* Debug */,
-				E790DDF50AE1E0D37DC1422D129F744A /* Release */,
+				8ED77372A86CEAB531BD67C75B991331 /* Debug */,
+				135E1AED720B1B08C968398AC417B3F7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

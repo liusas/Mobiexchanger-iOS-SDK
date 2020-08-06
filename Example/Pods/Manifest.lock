@@ -1,5 +1,5 @@
 PODS:
-  - Mobi_ads (0.1.4)
+  - Mobi_ads (0.1.6)
 
 DEPENDENCIES:
   - Mobi_ads (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  Mobi_ads: cc72dd8ed59e1e0660cb52fa005a970879f4205c
+  Mobi_ads: 3d5d8560c5de92da9dfcc8cf81ed4af4a9e69fa6
 
 PODFILE CHECKSUM: 7f468cfd402619785dc215046d7a3c33c74472bb
 
