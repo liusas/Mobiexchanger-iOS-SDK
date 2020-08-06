@@ -7,7 +7,7 @@ CACHE_KEYS:
       Mobiexchanger:
         :debug: b5d30494e7c59f43e688fe2a21c2eb3b
         :release: b5d30494e7c59f43e688fe2a21c2eb3b
-    CHECKSUM: 4f9402db15e4bf4304bb429a9fd0851d86602f47
+    CHECKSUM: e154781a11443748763c25795e9b0e27f625c12a
     FILES:
       - "../../LICENSE"
       - "../../Mobiexchanger/Classes/MobiPubSDK.framework"
@@ -221,7 +221,7 @@ CACHE_KEYS:
       - "../../README.md"
     PROJECT_NAME: Mobiexchanger
     SPECS:
-      - Mobiexchanger (0.1.1)
+      - Mobiexchanger (0.1.2)
   Pods-Mobiexchanger_Example:
     BUILD_SETTINGS_CHECKSUM:
       Debug: 4b2b217ead821c655a5b817665ba1892
