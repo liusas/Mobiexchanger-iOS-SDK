@@ -12,19 +12,19 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		437A74A5F3F272E3D2F0A19F0248C851 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = F02C8B90EDBDE685425C078BC1563E00 /* Mobi_ads.xcodeproj */;
-			proxyType = 1;
-			remoteGlobalIDString = 7B96A0C651A78780564232C9FED39BD9;
-			remoteInfo = Mobi_ads;
-		};
 		B1F76BD54F9575E5E058AFEAADD52EEB /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 0B6B05F750E9EA6BEDDA9ACD18CDCCCC;
 			remoteInfo = "Pods-Mobiexchanger_Example";
+		};
+		BF5EDBACE4744EC982BB714FFE853A43 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F02C8B90EDBDE685425C078BC1563E00 /* Mobi_ads.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 7B96A0C651A78780564232C9FED39BD9;
+			remoteInfo = Mobi_ads;
 		};
 /* End PBXContainerItemProxy section */
 
@@ -164,7 +164,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				8EF9599DBDDD2769ECB6A461A45C2CDD /* PBXTargetDependency */,
+				36864BD1D5D17E459EEE0A849A36537F /* PBXTargetDependency */,
 			);
 			name = "Pods-Mobiexchanger_Example";
 			productName = "Pods-Mobiexchanger_Example";
@@ -248,10 +248,10 @@
 			target = 0B6B05F750E9EA6BEDDA9ACD18CDCCCC /* Pods-Mobiexchanger_Example */;
 			targetProxy = B1F76BD54F9575E5E058AFEAADD52EEB /* PBXContainerItemProxy */;
 		};
-		8EF9599DBDDD2769ECB6A461A45C2CDD /* PBXTargetDependency */ = {
+		36864BD1D5D17E459EEE0A849A36537F /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = Mobi_ads;
-			targetProxy = 437A74A5F3F272E3D2F0A19F0248C851 /* PBXContainerItemProxy */;
+			targetProxy = BF5EDBACE4744EC982BB714FFE853A43 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 

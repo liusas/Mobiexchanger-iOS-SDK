@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'Mobi_ads'
-  s.version          = '0.1.6'
+  s.version          = '0.1.7'
   s.summary          = 'This is a ads sdk of Mobi_ads.'
 
 # This description is used to generate tags and improve search results.
@@ -32,8 +32,8 @@ Pod::Spec.new do |s|
 #  s.source_files = 'Mobiexchanger/Classes/**/*'
 
   s.vendored_framework = 'Mobiexchanger/MobiPubSDK.framework'
-  s.resources = 'Mobiexchanger/BUAdSDK.bundle'
-  s.libraries = "z", "c++", "xml2","resolv", 'sqlite3'
+#  s.resources = 'Mobiexchanger/BUAdSDK.bundle'
+#  s.libraries = "z", "c++", "xml2","resolv", 'sqlite3'
   # s.resource_bundles = {
   #   'Mobiexchanger' => ['Mobiexchanger/Assets/*.png']
   # }
