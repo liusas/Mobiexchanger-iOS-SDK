@@ -10,7 +10,8 @@ install! 'cocoapods',
 :incremental_installation => true
 
 target 'Mobiexchanger_Example' do
-  pod 'Mobiexchanger', :path => '../'
+  pod 'Mobiexchanger'
+#  , :path => '../'
 
   target 'Mobiexchanger_Tests' do
     inherit! :search_paths

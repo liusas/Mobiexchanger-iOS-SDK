@@ -1,6 +1,6 @@
-FRAMEWORK_SEARCH_PATHS = $(inherited) "${PODS_ROOT}/../../Mobiexchanger"
+FRAMEWORK_SEARCH_PATHS = $(inherited) "${PODS_ROOT}/Mobiexchanger/Mobiexchanger"
 GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
-OTHER_CFLAGS = $(inherited) -iframework "${PODS_ROOT}/../../Mobiexchanger"
+OTHER_CFLAGS = $(inherited) -iframework "${PODS_ROOT}/Mobiexchanger/Mobiexchanger"
 OTHER_LDFLAGS = $(inherited) -ObjC -framework "AVFoundation" -framework "AVKit" -framework "AdSupport" -framework "CoreGraphics" -framework "CoreMedia" -framework "CoreServices" -framework "CoreTelephony" -framework "Foundation" -framework "MediaPlayer" -framework "MobiPubSDK" -framework "SafariServices" -framework "StoreKit" -framework "SystemConfiguration" -framework "UIKit" -framework "WebKit"
 PODS_BUILD_DIR = ${BUILD_DIR}
 PODS_CONFIGURATION_BUILD_DIR = ${PODS_BUILD_DIR}/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)

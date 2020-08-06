@@ -12,9 +12,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		A776E02B4AF835C202BC2A5E22EA9870 /* PBXContainerItemProxy */ = {
+		3EA647FEFCE217D9082130931E041E2A /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 96C1D5B895E797BFBBE140F4DBD21C27 /* Mobiexchanger.xcodeproj */;
+			containerPortal = 0184C6F61E03FCA1FC37E77CA43B52CC /* Mobiexchanger.xcodeproj */;
 			proxyType = 1;
 			remoteGlobalIDString = 3A10EF94B00BAECB4F5F85BCA8CCEF53;
 			remoteInfo = Mobiexchanger;
@@ -29,6 +29,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0184C6F61E03FCA1FC37E77CA43B52CC /* Mobiexchanger */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Mobiexchanger; path = Mobiexchanger.xcodeproj; sourceTree = "<group>"; };
 		0EB78FBB77DA143F1B8AE7FAEA6E9A07 /* Pods-Mobiexchanger_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Mobiexchanger_Tests-dummy.m"; sourceTree = "<group>"; };
 		232CEBF26CAC1BDCA82D0B3F383A7335 /* Pods-Mobiexchanger_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Mobiexchanger_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		250C4B5235D100509BCFCE47393DBBED /* Pods-Mobiexchanger_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Mobiexchanger_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
@@ -38,7 +39,6 @@
 		608560500F62D19647C5B74A02921548 /* Pods-Mobiexchanger_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Mobiexchanger_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		6AC4DCA1856F74A9F4793567DA35D7AB /* Pods-Mobiexchanger_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Mobiexchanger_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		82CFC22C7920E24A9E8F51A1CB133B47 /* libPods-Mobiexchanger_Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-Mobiexchanger_Tests.a"; path = "libPods-Mobiexchanger_Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		96C1D5B895E797BFBBE140F4DBD21C27 /* Mobiexchanger */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Mobiexchanger; path = Mobiexchanger.xcodeproj; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A4CF12FC16A1E7BFE262C306065F0189 /* Pods-Mobiexchanger_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Mobiexchanger_Example-dummy.m"; sourceTree = "<group>"; };
 		E80A18B2BC109A68CB727BF805D24B03 /* Pods-Mobiexchanger_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Mobiexchanger_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
@@ -63,14 +63,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		19564B2A968A1F69B7721B1915F42C92 /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				96C1D5B895E797BFBBE140F4DBD21C27 /* Mobiexchanger */,
-			);
-			name = "Development Pods";
-			sourceTree = "<group>";
-		};
 		2A166ABD91ADED9AC6AE2619F249957D /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -119,8 +111,8 @@
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				19564B2A968A1F69B7721B1915F42C92 /* Development Pods */,
 				D89477F20FB1DE18A04690586D7808C4 /* Frameworks */,
+				F1901170C68331CE44B5D49A75997D24 /* Pods */,
 				5BFBC16F640C703F378AE05177C88AF6 /* Products */,
 				2A166ABD91ADED9AC6AE2619F249957D /* Targets Support Files */,
 			);
@@ -131,6 +123,14 @@
 			children = (
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F1901170C68331CE44B5D49A75997D24 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0184C6F61E03FCA1FC37E77CA43B52CC /* Mobiexchanger */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -164,7 +164,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				023E7FD539D4056EC2C0411E7FF83F78 /* PBXTargetDependency */,
+				E772A47FF99A0F613D519BDBE1CB7F64 /* PBXTargetDependency */,
 			);
 			name = "Pods-Mobiexchanger_Example";
 			productName = "Pods-Mobiexchanger_Example";
@@ -211,7 +211,7 @@
 			projectDirPath = "";
 			projectReferences = (
 				{
-					ProjectRef = 96C1D5B895E797BFBBE140F4DBD21C27 /* Mobiexchanger */;
+					ProjectRef = 0184C6F61E03FCA1FC37E77CA43B52CC /* Mobiexchanger */;
 				},
 			);
 			projectRoot = "";
@@ -242,16 +242,16 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		023E7FD539D4056EC2C0411E7FF83F78 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = Mobiexchanger;
-			targetProxy = A776E02B4AF835C202BC2A5E22EA9870 /* PBXContainerItemProxy */;
-		};
 		1E7C0092142FB3EFEFE53709CAF878C7 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-Mobiexchanger_Example";
 			target = 0B6B05F750E9EA6BEDDA9ACD18CDCCCC /* Pods-Mobiexchanger_Example */;
 			targetProxy = B1F76BD54F9575E5E058AFEAADD52EEB /* PBXContainerItemProxy */;
+		};
+		E772A47FF99A0F613D519BDBE1CB7F64 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Mobiexchanger;
+			targetProxy = 3EA647FEFCE217D9082130931E041E2A /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 

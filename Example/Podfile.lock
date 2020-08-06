@@ -1,16 +1,16 @@
 PODS:
-  - Mobiexchanger (0.1.7)
+  - Mobiexchanger (0.1.8)
 
 DEPENDENCIES:
-  - Mobiexchanger (from `../`)
+  - Mobiexchanger
 
-EXTERNAL SOURCES:
-  Mobiexchanger:
-    :path: "../"
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - Mobiexchanger
 
 SPEC CHECKSUMS:
-  Mobiexchanger: d2191c8e5bae822a44ba702c577db784706e2749
+  Mobiexchanger: 9195cf403b67668f2b193e8027800ee351815432
 
-PODFILE CHECKSUM: 7edf949c9e3cfd244ddd6e9568eb08e235ac4685
+PODFILE CHECKSUM: 5b10683c68cb352944d17e625750c255279d3dd0
 
 COCOAPODS: 1.9.3
